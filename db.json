@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "ravi@gmail.com",
+      "password": "123456",
+      "name": "Test User"
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "84f2",
+      "userId": 1,
+      "movieId": 671,
+      "movie": {
+        "id": 671,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
+        "title": "Harry Potter and the Philosopher's Stone",
+        "genre": "N/A",
+        "description": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard—with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths—and about the villain who's to blame.",
+        "cast": "",
+        "releaseDate": "2001-11-16",
+        "rating": 7.902
+      }
+    },
+    {
+      "id": "03d4",
+      "userId": 1,
+      "movieId": 62213,
+      "movie": {
+        "id": 62213,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/fd9Ck4cxVlmtXsbeGtQW7WFuUFI.jpg",
+        "title": "Dark Shadows",
+        "genre": "N/A",
+        "description": "Vampire Barnabas Collins is inadvertently freed from his tomb and emerges into the very changed world of 1972. He returns to Collinwood Manor to find that his once-grand estate and family have fallen into ruin.",
+        "cast": "",
+        "releaseDate": "2012-05-09",
+        "rating": 6.091
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "id": "a435",
+      "movieId": 24428,
+      "userId": 1,
+      "username": "Ravi",
+      "comment": "Avengers are awesome",
+      "rating": 5
+    },
+    {
+      "id": "0da6",
+      "movieId": 24428,
+      "userId": 1,
+      "username": "Ravi",
+      "comment": "Iron Man",
+      "rating": 3
+    },
+    {
+      "id": "ecb3",
+      "movieId": 671,
+      "userId": 1,
+      "username": "Ravi",
+      "comment": "Hi Harry",
+      "rating": 5
+    }
+  ],
+  "bookedMovies": [
+    {
+      "id": 1137179,
+      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/Ap3k9G8R33qUqNGLqmIBCPp7XF9.jpg",
+      "title": "Yadang: The Snitch",
+      "genre": "N/A",
+      "description": "Drug-criminals take advantage of commutation by passing over the insider’s information bought from ‘Ya-Dang’. Cops and prosecutors, on the other hand, make performances by using the information. There is a triangle in Korean drug-crime scene: police, prosecutors and the game changer, ‘Ya-Dang’.",
+      "cast": "",
+      "releaseDate": "2025-04-16",
+      "rating": 0
+    },
+    {
+      "id": 436764,
+      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/dgZDAjxT36YljMNkkkYn4vAWZs0.jpg",
+      "title": "FOX 25th Anniversary Special",
+      "genre": "N/A",
+      "description": "A special celebrating FOX's 25 years on the air. Highlights from iconic series and tributes to memorable moments, as well as celebrities honoring the network include.",
+      "cast": "",
+      "releaseDate": "2012-04-22",
+      "rating": 7.3
+    },
+    {
+      "id": 37021,
+      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/u4QbqQCYzcPlrmGpOl79HNVhCUJ.jpg",
+      "title": "Ranma ½: Nihao My Concubine",
+      "genre": "N/A",
+      "description": "With the Tendos, the Saotomes, Ryoga, Shampoo and Ukyo misinterpreting Tatewake Kuno's invitation to his two loves, Akane and 'The Pig Tailed Girl', to try his new yacht, a whole new episode of chaos begins in the already unstable lives of the Saotome/Tendo clan. A mysterious shadow kidnaps first Akane's sister Kasumi, then continues on until all the girls disappear. All except everyone's favorite hydrotranssexual.",
+      "cast": "",
+      "releaseDate": "1992-08-02",
+      "rating": 8
+    },
+    {
+      "id": 999849,
+      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/3SOHdbnArnILAkv07X0f6uCRBxf.jpg",
+      "title": "Late Bloomers",
+      "genre": "N/A",
+      "description": "Louise, an aimless, 28 year-old Brooklynite, recently single, sort of a musician, depressed without admitting to it, drunkenly falls while doing something stupid and breaks her hip. This lands her in a physical therapy ward full of people twice her age. There, she meets Antonina - a cranky elderly Polish woman, who speaks no English. Louise gets a job caring for her. Neither woman loves the arrangement but it’s time to face the truth about aging. We all have to grow up sometime.",
+      "cast": "",
+      "releaseDate": "2024-06-07",
+      "rating": 6.3
+    },
+    {
+      "id": 62213,
+      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/fd9Ck4cxVlmtXsbeGtQW7WFuUFI.jpg",
+      "title": "Dark Shadows",
+      "genre": "N/A",
+      "description": "Vampire Barnabas Collins is inadvertently freed from his tomb and emerges into the very changed world of 1972. He returns to Collinwood Manor to find that his once-grand estate and family have fallen into ruin.",
+      "cast": "",
+      "releaseDate": "2012-05-09",
+      "rating": 6.091
+    },
+    {
+      "id": 240918,
+      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/1kfr1DlRFFKuNBM6W24GHwZvgg0.jpg",
+      "title": "Amazing",
+      "genre": "N/A",
+      "description": "Relive the greatest season in the history of BYU Basketball! Watch Coach Dave Rose and his team, led by NCAA player of the year Jimmer Fredette, march to a record 32 wins and their first Sweet 16 appearance in 30 years! With exclusive interviews from the team, the coaches, legendary ESPN analyst Dick Vitale, NFL Hall of Famer Steve Young, Boston Celtics General Manager Danny Ainge, along with coverage from ESPN and the 2011 NCAA Tournament, this feature length documentary puts you court-side in the middle of the action.  This is the official, most complete and comprehensive look you'll get into a season that can only be described as AMAZING.",
+      "cast": "",
+      "releaseDate": "2011-12-06",
+      "rating": 0
+    },
+    {
+      "id": 770906,
+      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/mNHdClul57prczb5O0krrzyonnn.jpg",
+      "title": "Salaar: Part 1 - Ceasefire",
+      "genre": "N/A",
+      "description": "Set in the fictional dystopian city-state of Khansaar, the film follows the friendship between Deva, a tribesman, and Varadha, the prince of Khansaar. When a coup d'état is planned by his father's ministers and his relatives, Varadha enlists Deva's help to become Khansaar's undisputed ruler.",
+      "cast": "",
+      "releaseDate": "2023-12-21",
+      "rating": 6.8
+    }
+  ]
+}

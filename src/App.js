@@ -1,0 +1,27 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Login from './containers/Login';
+import Navbar from "./components/Navbar";
+import MovieSearch from './containers/MovieSearch';
+import MovieDetails from './containers/MovieDetails';
+import Watchlist from './containers/Watchlist';
+import MovieListing from './containers/MovieListing';
+import BookedMovies from './containers/BookedMovies';
+import "./App.css";
+
+const App = () => (
+  <> <Navbar />
+  <div className="container mt-4">
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/movie-listing" element={<MovieListing />} />
+      <Route path="/search" element={<MovieSearch />} />
+      <Route path="/movie/:id" element={<MovieDetails />} />
+      <Route path="/watchlist" element={<Watchlist />} />
+      <Route path="/booked" element={<BookedMovies />} />
+    </Routes>
+  </div>
+  </>
+);
+
+export default App;
