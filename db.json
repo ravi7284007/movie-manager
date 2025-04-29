@@ -4,7 +4,13 @@
       "id": "1",
       "email": "ravi@gmail.com",
       "password": "123456",
-      "name": "Test User"
+      "name": "Ravi"
+    },
+    {
+      "id": "2",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "name": "Anonymouse"
     }
   ],
   "watchlist": [
@@ -36,6 +42,96 @@
         "cast": "",
         "releaseDate": "2012-05-09",
         "rating": 6.091
+      }
+    },
+    {
+      "id": "c5e4",
+      "userId": 1,
+      "movieId": 240832,
+      "movie": {
+        "id": 240832,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/kRbpUTRNm6QbLQFPFWUcNC4czEm.jpg",
+        "title": "Lucy",
+        "genre": "N/A",
+        "description": "A woman, accidentally caught in a dark deal, turns the tables on her captors and transforms into a merciless warrior evolved beyond human logic.",
+        "cast": "",
+        "releaseDate": "2014-07-25",
+        "rating": 6.462
+      }
+    },
+    {
+      "id": "7d91",
+      "userId": 1,
+      "movieId": 5236,
+      "movie": {
+        "id": 5236,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
+        "title": "Kiss Kiss Bang Bang",
+        "genre": "N/A",
+        "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
+        "cast": "",
+        "releaseDate": "2005-09-14",
+        "rating": 7.167
+      }
+    },
+    {
+      "id": "0e7a",
+      "userId": 1,
+      "movieId": 663,
+      "movie": {
+        "id": 663,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/ku1QdCXOU4ckz3zxLLlis8MIJVm.jpg",
+        "title": "Saw IV",
+        "genre": "N/A",
+        "description": "Despite Jigsaw's death, and in order to save the lives of two of his colleagues, Lieutenant Rigg is forced to take part in a new game, which promises to test him to the limit.",
+        "cast": "",
+        "releaseDate": "2007-10-25",
+        "rating": 6.16
+      }
+    },
+    {
+      "id": "44ea",
+      "userId": 1,
+      "movieId": 9611,
+      "movie": {
+        "id": 9611,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/dpX4AFvoCNr5dmqyTfJrOvSb8M4.jpg",
+        "title": "Romy and Michele's High School Reunion",
+        "genre": "N/A",
+        "description": "Two not-too-bright party girls reinvent themselves for their high school reunion. Armed with a borrowed Jaguar, new clothes and the story of their success as the inventors of Post-It notes, Romy and Michele descend on their alma mater, but their façade crumbles quickly.",
+        "cast": "",
+        "releaseDate": "1997-04-25",
+        "rating": 6.213
+      }
+    },
+    {
+      "id": "7d3a",
+      "userId": 1,
+      "movieId": 1064758,
+      "movie": {
+        "id": 1064758,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/zCi5WZbYeFkM1KsOcbSv2qd37Bf.jpg",
+        "title": "Planet B",
+        "genre": "N/A",
+        "description": "France, 2039. One night, a group of activists who are being pursued by the State vanish without a trace. Julia Bombarth is one of them. When she awakens, she finds herself trapped in an entirely unfamiliar world: PLANET B.",
+        "cast": "",
+        "releaseDate": "2024-12-25",
+        "rating": 5.042
+      }
+    },
+    {
+      "id": "8a02",
+      "userId": "2",
+      "movieId": 91010,
+      "movie": {
+        "id": 91010,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/wfRJbhF3zkp3eBpSHkLyzLIKqEM.jpg",
+        "title": "Game Change",
+        "genre": "N/A",
+        "description": "During the Republican run of the 2008 Presidential election, candidate John McCain picks a relative unknown, Alaskan governor Sarah Palin, to be his running mate.  As the campaign kicks into high gear, her lack of experience, in both political and media savvy, becomes a drain upon McCain and his strategists.",
+        "cast": "",
+        "releaseDate": "2012-02-28",
+        "rating": 6.9
       }
     }
   ],
@@ -135,6 +231,16 @@
       "cast": "",
       "releaseDate": "2023-12-21",
       "rating": 6.8
+    },
+    {
+      "id": 303903,
+      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/rA0KbJZbBt2fMmZs8bwPZnzFfDc.jpg",
+      "title": "Pokémon the Movie: Diancie and the Cocoon of Destruction",
+      "genre": "N/A",
+      "description": "In the underground Diamond Domain, where many Carbink live, the Mythical Pokémon Diancie serves as ruler. The Heart Diamond that sustains the land is beginning to fall apart, and Diancie is not yet strong enough to create a new one. While seeking help from the Legendary Pokémon Xerneas, Diancie encounters a group of thieves who want to take control of its diamond-producing power–and who awaken the Legendary Pokémon Yveltal from its cocoon in the process! Can Ash and his friends help Diancie discover its true power, stop Yveltal’s rampage, and save the Diamond Domain?",
+      "cast": "",
+      "releaseDate": "2014-07-19",
+      "rating": 6.7
     }
   ]
 }

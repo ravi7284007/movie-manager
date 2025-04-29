@@ -5,15 +5,17 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchReviews, addReview, updateReview, deleteReview } from '../actions/reviewActions';
 import ReviewForm from '../components/ReviewForm';
 import ReviewList from '../components/ReviewList';
-import { bookMovie } from '../actions/movieActions';
+import { bookMovie, selectMovie } from '../actions/movieActions';
+import { fetchWatchlist } from '../actions/watchlistActions';
 
 const MovieDetails = () => {
   const movie = useSelector(state => state.movies.selectedMovie);
   const { list: reviews } = useSelector(state => state.reviews);
+  const { items } = useSelector(state => state.watchlist)
   const [editingReview, setEditingReview] = useState(null);
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const userId = 1; // Replace with real user state
+  const userId = useSelector(state => state.auth.user.id)
 
   const handleAddToWatchlist = () => {
 
@@ -24,9 +26,15 @@ const MovieDetails = () => {
 
   useEffect(() => {
     if (movie) {
-      dispatch(fetchReviews(movie.id)); // Fixed to use `movie` here
+      dispatch(fetchReviews(movie.id));
+      dispatch(fetchWatchlist(userId))
     }
-  }, [movie, dispatch]); // Make sure to include dispatch as a dependency
+  }, [movie, dispatch]);
+
+  const handleSelect = (movie) => {
+    dispatch(selectMovie(movie));
+    navigate(`/movie/${movie.id}`);
+  };
 
   const handleReviewSubmit = (review) => {
     if (editingReview) {
@@ -39,6 +47,12 @@ const MovieDetails = () => {
   const handleBook = (movie) => {
     dispatch(bookMovie(movie));
   };
+
+  const getRandomItems = (arr, count) => {
+    const shuffled = [...arr].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, count);
+  };
+
   const handleDelete = (reviewId, movieId) => dispatch(deleteReview(reviewId, movieId));
 
   // If movie is not selected, show a message
@@ -76,9 +90,9 @@ const MovieDetails = () => {
         </div>
         <div className='col-md-5'>
           <div className="card p-4 shadow">
-            <h4>{movie.title}</h4> {/* Ensure you're using `movie` here */}
+            <h4>{movie.title}</h4> 
             <ReviewForm
-              movieId={movie.id} // Ensure you're passing `movie.id` here
+              movieId={movie.id}
               onSubmit={handleReviewSubmit}
               existingReview={editingReview}
             />
@@ -90,6 +104,39 @@ const MovieDetails = () => {
           </div>
         </div>
       </div>
+
+      {items.length > 0 &&
+        <div className='recently_watched card p-4 shadow mt-5'>
+          <h2 className='mb-4'>Recently Watched Movies</h2>
+          <div className='row'>
+            {getRandomItems(items, 4).map(movie => (
+              <div
+                key={movie.id}
+                className="col-md-3 mb-3"
+
+              >
+                <figure style={{
+                  border: '2px solid',
+                  borderColor: movie.rating < 5 ? 'orange' : 'green',
+                  padding: '10px',
+                  height: '100%'
+                }}>
+                  <img src={movie.poster} alt={movie.title} />
+                  <figcaption>
+                    <h3>{movie.title}</h3>
+                    <p>Rating: {movie.rating}</p>
+                    <button className="btn btn-outline-primary me-1" onClick={() => handleBook(movie)}>
+                      Book Now
+                    </button>
+                    <button className="btn btn-outline-primary" onClick={() => handleSelect(movie)}>View Details</button>
+
+                  </figcaption>
+                </figure>
+              </div>
+            ))}
+          </div>
+        </div>
+      }
     </>
   );
 };

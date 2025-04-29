@@ -75,3 +75,5 @@ export const bookMovie = (movie) => async (dispatch) => {
 export const clearSearchResults = () => ({
   type: 'CLEAR_SEARCH_RESULTS',
 });
+
+

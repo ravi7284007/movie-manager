@@ -28,9 +28,12 @@ const Navbar = () => {
         )}
       </div>
       {user ? (
-        <button className="btn btn-outline-dark" onClick={handleLogout}>
+        <>
+        <span className="me-2">🧑 {user.name}</span>|
+        <button className="btn btn-outline-dark ms-2" onClick={handleLogout}>
           Logout
         </button>
+        </>
       ) : null}
       </div>
     </nav>

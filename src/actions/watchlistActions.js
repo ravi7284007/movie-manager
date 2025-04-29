@@ -5,6 +5,7 @@ export const fetchWatchlist = (userId) => async dispatch => {
     try {
       const res = await API.get(`/watchlist?userId=${userId}`);
       const movies = res.data.map(item => item.movie);
+      
       dispatch({ type: 'FETCH_WATCHLIST_SUCCESS', payload: movies });
     } catch (err) {
       dispatch({ type: 'FETCH_WATCHLIST_FAILURE', error: err.message });

@@ -1,9 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchTopRatedMovies } from '../actions/movieActions';
 import { useNavigate } from 'react-router-dom';
-import { bookMovie } from '../actions/movieActions';
-import { selectMovie } from '../actions/movieActions';
+import { bookMovie, selectMovie, fetchTopRatedMovies } from '../actions/movieActions';
 
 const MovieListing = () => {
     const dispatch = useDispatch();

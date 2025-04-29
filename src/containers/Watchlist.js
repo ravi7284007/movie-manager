@@ -6,7 +6,6 @@ const Watchlist = () => {
   const dispatch = useDispatch();
   const { user } = useSelector(state => state.auth);
   const { items, loading } = useSelector(state => state.watchlist);
-    console.log('ravi', useSelector(state => state.watchlist));
     
   useEffect(() => {
     if (user) {
