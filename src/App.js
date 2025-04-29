@@ -21,6 +21,12 @@ const App = () => (
       <Route path="/booked" element={<BookedMovies />} />
     </Routes>
   </div>
+
+  <footer className="app-footer">
+  <div className="text-center py-3">
+    © {new Date().getFullYear()} Ravi. All rights reserved.
+  </div>
+</footer>
   </>
 );
 

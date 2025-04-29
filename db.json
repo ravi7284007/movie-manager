@@ -133,6 +133,21 @@
         "releaseDate": "2012-02-28",
         "rating": 6.9
       }
+    },
+    {
+      "id": "649b",
+      "userId": "1",
+      "movieId": 64202,
+      "movie": {
+        "id": 64202,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/8YgqCWC9Vf9732oa4uUcQRR38GC.jpg",
+        "title": "Batman Beyond: The Movie",
+        "genre": "N/A",
+        "description": "Fuelled by remorse and vengeance, a high schooler named Terry McGinnis becomes the new Batman as he fights crime in the futuristic Neo-Gotham City.",
+        "cast": "",
+        "releaseDate": "1999-01-10",
+        "rating": 7.247
+      }
     }
   ],
   "reviews": [
