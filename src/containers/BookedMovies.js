@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchBookedMovies } from '../actions/bookedAction';
 import { useNavigate } from 'react-router-dom';
+import { selectMovie } from '../actions/movieActions';
 
 const BookedMovies = () => {
   const dispatch = useDispatch();
@@ -31,6 +32,11 @@ const BookedMovies = () => {
     }
   };
 
+  const handleSlectedMovie = ({movie}) =>{
+    dispatch(selectMovie(movie))
+    navigate(`/movie/${movie.id}`);
+  }
+
   if (loading) return <p>Loading booked movies...</p>;
   if (error) return <p>{error}</p>;
 
@@ -44,9 +50,9 @@ const BookedMovies = () => {
           booked.map(item => (
             <div className="col-md-3 mb-3" key={item.id}>
               <div className="card h-100">
-                <img src={item.movie.poster} className="card-img-top" alt={item.movie.title} />
+                <img onClick={() => handleSlectedMovie(item)} src={item.movie.poster} className="card-img-top" alt={item.movie.title} />
                 <div className="card-body">
-                  <h5 className="card-title">{item.movie.title}</h5>
+                  <h5 className="card-title" onClick={() => handleSlectedMovie(item)} >{item.movie.title}</h5>
                   <p><strong>Rating:</strong> {item.movie.rating}</p>
                   <button className="btn btn-danger" onClick={() => handleRemove(item.movieId)}>
                     Remove

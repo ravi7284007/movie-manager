@@ -52,8 +52,8 @@ const MovieSearch = () => {
                                 borderColor: movie.rating < 5 ? 'orange' : 'green',
                             }}>
                             <div className="card-body">
-                                <img src={movie.poster} class="card-img-top mb-2" alt={movie.title} />
-                                <h5 className="card-title">{movie.title}</h5>
+                                <img  onClick={() => handleSelect(movie)} src={movie.poster} class="card-img-top mb-2" alt={movie.title} />
+                                <h5 className="card-title" onClick={() => handleSelect(movie)}>{movie.title}</h5>
                                 <p className="card-text"><strong>Genre:</strong> {movie.genre}</p>
                                 <p className="card-text"><strong>Rating:</strong> {movie.rating}</p>
                                 <button className="btn btn-outline-primary" onClick={() => handleSelect(movie)}>View Details</button>

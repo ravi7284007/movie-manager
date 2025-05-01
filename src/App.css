@@ -110,9 +110,11 @@ div .form-control {
 	font-size: 18px;
 	font-weight: bold;
 	margin-top: 10px;
+	cursor: pointer;
 }
-.card-body img, figure img{
+.card-img-top, .card-body img, figure img{
 	width: 100%;
+	cursor: pointer;
 }
 
 .app-footer {

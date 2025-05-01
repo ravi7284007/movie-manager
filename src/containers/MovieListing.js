@@ -44,9 +44,9 @@ const MovieListing = () => {
                         padding: '10px',
                         height: '100%'
                     }}>
-                        <img src={movie.poster} alt={movie.title} />
+                        <img src={movie.poster} alt={movie.title} onClick={() => handleSelect(movie)} />
                         <figcaption>
-                            <h3>{movie.title}</h3>
+                            <h3 onClick={() => handleSelect(movie)}>{movie.title}</h3>
                             <p>Rating: {movie.rating}</p>
                             <button className="btn btn-outline-primary me-1" onClick={() => handleBook(movie, user.id)}>
                                 Book Now

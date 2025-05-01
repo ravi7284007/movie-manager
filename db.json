@@ -236,6 +236,36 @@
         "releaseDate": "2003-05-10",
         "rating": 7
       }
+    },
+    {
+      "id": "cbde",
+      "userId": "1",
+      "movieId": 39102,
+      "movie": {
+        "id": 39102,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/1lmwZTsqwTtvd3m60pyQfhGM2Ut.jpg",
+        "title": "Dragon Ball Z: Lord Slug",
+        "genre": "N/A",
+        "description": "A Super Namekian named Slug comes to invade Earth. But the Z Warriors do their best to stop Slug and his gang.",
+        "cast": "",
+        "releaseDate": "1991-03-19",
+        "rating": 6.5
+      }
+    },
+    {
+      "id": "a7f8",
+      "userId": "1",
+      "movieId": 20986,
+      "movie": {
+        "id": 20986,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/nNjFlv4mJlkGLzfnLoU68YSy9KH.jpg",
+        "title": "Gurren Lagann the Movie: Childhood's End",
+        "genre": "N/A",
+        "description": "Simon and Kamina live in an underground city monitored by the village chief. When Simon stumbles upon an artifact and beastmen invade from the surface, Simon and Kamina rebel against them.",
+        "cast": "",
+        "releaseDate": "2008-09-06",
+        "rating": 7.7
+      }
     }
   ]
 }
