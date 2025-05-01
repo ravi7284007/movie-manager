@@ -15,51 +15,6 @@
   ],
   "watchlist": [
     {
-      "id": "84f2",
-      "userId": 1,
-      "movieId": 671,
-      "movie": {
-        "id": 671,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
-        "title": "Harry Potter and the Philosopher's Stone",
-        "genre": "N/A",
-        "description": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard—with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths—and about the villain who's to blame.",
-        "cast": "",
-        "releaseDate": "2001-11-16",
-        "rating": 7.902
-      }
-    },
-    {
-      "id": "03d4",
-      "userId": 1,
-      "movieId": 62213,
-      "movie": {
-        "id": 62213,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/fd9Ck4cxVlmtXsbeGtQW7WFuUFI.jpg",
-        "title": "Dark Shadows",
-        "genre": "N/A",
-        "description": "Vampire Barnabas Collins is inadvertently freed from his tomb and emerges into the very changed world of 1972. He returns to Collinwood Manor to find that his once-grand estate and family have fallen into ruin.",
-        "cast": "",
-        "releaseDate": "2012-05-09",
-        "rating": 6.091
-      }
-    },
-    {
-      "id": "c5e4",
-      "userId": 1,
-      "movieId": 240832,
-      "movie": {
-        "id": 240832,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/kRbpUTRNm6QbLQFPFWUcNC4czEm.jpg",
-        "title": "Lucy",
-        "genre": "N/A",
-        "description": "A woman, accidentally caught in a dark deal, turns the tables on her captors and transforms into a merciless warrior evolved beyond human logic.",
-        "cast": "",
-        "releaseDate": "2014-07-25",
-        "rating": 6.462
-      }
-    },
-    {
       "id": "7d91",
       "userId": 1,
       "movieId": 5236,
@@ -178,84 +133,109 @@
   ],
   "bookedMovies": [
     {
-      "id": 1137179,
-      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/Ap3k9G8R33qUqNGLqmIBCPp7XF9.jpg",
-      "title": "Yadang: The Snitch",
-      "genre": "N/A",
-      "description": "Drug-criminals take advantage of commutation by passing over the insider’s information bought from ‘Ya-Dang’. Cops and prosecutors, on the other hand, make performances by using the information. There is a triangle in Korean drug-crime scene: police, prosecutors and the game changer, ‘Ya-Dang’.",
-      "cast": "",
-      "releaseDate": "2025-04-16",
-      "rating": 0
+      "id": "a124",
+      "userId": "1",
+      "movieId": 557,
+      "movie": {
+        "id": 557,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/gh4cZbhZxyTbgxQPxD0dOudNPTn.jpg",
+        "title": "Spider-Man",
+        "genre": "N/A",
+        "description": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
+        "cast": "",
+        "releaseDate": "2002-05-01",
+        "rating": 7.309
+      }
     },
     {
-      "id": 436764,
-      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/dgZDAjxT36YljMNkkkYn4vAWZs0.jpg",
-      "title": "FOX 25th Anniversary Special",
-      "genre": "N/A",
-      "description": "A special celebrating FOX's 25 years on the air. Highlights from iconic series and tributes to memorable moments, as well as celebrities honoring the network include.",
-      "cast": "",
-      "releaseDate": "2012-04-22",
-      "rating": 7.3
+      "id": "a078",
+      "userId": "1",
+      "movieId": 615,
+      "movie": {
+        "id": 615,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/v9f9MMrq2nGQrN7cHnQRmEq9lSE.jpg",
+        "title": "The Passion of the Christ",
+        "genre": "N/A",
+        "description": "A graphic portrayal of the last twelve hours of Jesus of Nazareth's life.",
+        "cast": "",
+        "releaseDate": "2004-02-25",
+        "rating": 7.522
+      }
     },
     {
-      "id": 37021,
-      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/u4QbqQCYzcPlrmGpOl79HNVhCUJ.jpg",
-      "title": "Ranma ½: Nihao My Concubine",
-      "genre": "N/A",
-      "description": "With the Tendos, the Saotomes, Ryoga, Shampoo and Ukyo misinterpreting Tatewake Kuno's invitation to his two loves, Akane and 'The Pig Tailed Girl', to try his new yacht, a whole new episode of chaos begins in the already unstable lives of the Saotome/Tendo clan. A mysterious shadow kidnaps first Akane's sister Kasumi, then continues on until all the girls disappear. All except everyone's favorite hydrotranssexual.",
-      "cast": "",
-      "releaseDate": "1992-08-02",
-      "rating": 8
+      "id": "2f92",
+      "userId": "1",
+      "movieId": 8587,
+      "movie": {
+        "id": 8587,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+        "title": "The Lion King",
+        "genre": "N/A",
+        "description": "Young lion prince Simba, eager to one day become king of the Pride Lands, grows up under the watchful eye of his father Mufasa; all the while his villainous uncle Scar conspires to take the throne for himself. Amid betrayal and tragedy, Simba must confront his past and find his rightful place in the Circle of Life.",
+        "cast": "",
+        "releaseDate": "1994-06-15",
+        "rating": 8.257
+      }
     },
     {
-      "id": 999849,
-      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/3SOHdbnArnILAkv07X0f6uCRBxf.jpg",
-      "title": "Late Bloomers",
-      "genre": "N/A",
-      "description": "Louise, an aimless, 28 year-old Brooklynite, recently single, sort of a musician, depressed without admitting to it, drunkenly falls while doing something stupid and breaks her hip. This lands her in a physical therapy ward full of people twice her age. There, she meets Antonina - a cranky elderly Polish woman, who speaks no English. Louise gets a job caring for her. Neither woman loves the arrangement but it’s time to face the truth about aging. We all have to grow up sometime.",
-      "cast": "",
-      "releaseDate": "2024-06-07",
-      "rating": 6.3
+      "id": "8a50",
+      "userId": "1",
+      "movieId": 372761,
+      "movie": {
+        "id": 372761,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/t9ikHZFR9MvFMG7N7MMgCS7jzl7.jpg",
+        "title": "PERSONA3 THE MOVIE #4 Winter of Rebirth",
+        "genre": "N/A",
+        "description": "To know death, to gaze at death, to face death. Makoto and his allies have grown through the many meetings and partings they have experienced.  Their fight might not be for the sake of the world, but for themselves. Even so, they have continued to fight, believing that there are peaceful days waiting at the end of the battle.  However, a boy says that destruction is the fate that humanity must shoulder. The boy they believed to be their friend tells them the truth of the situation without an emotion on his face.  The season changes to winter. Makoto makes a decision in order to greet the spring that is waiting beyond...",
+        "cast": "",
+        "releaseDate": "2016-01-23",
+        "rating": 7.9
+      }
     },
     {
-      "id": 62213,
-      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/fd9Ck4cxVlmtXsbeGtQW7WFuUFI.jpg",
-      "title": "Dark Shadows",
-      "genre": "N/A",
-      "description": "Vampire Barnabas Collins is inadvertently freed from his tomb and emerges into the very changed world of 1972. He returns to Collinwood Manor to find that his once-grand estate and family have fallen into ruin.",
-      "cast": "",
-      "releaseDate": "2012-05-09",
-      "rating": 6.091
+      "id": "097f",
+      "userId": "1",
+      "movieId": 36643,
+      "movie": {
+        "id": 36643,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/wCb2msgoZPK01WIqry24M4xsM73.jpg",
+        "title": "The World Is Not Enough",
+        "genre": "N/A",
+        "description": "Greed, revenge, world dominance and high-tech terrorism – it's all in a day's work for Bond, who's on a mission to protect a beautiful oil heiress from a notorious terrorist. In a race against time that culminates in a dramatic submarine showdown, Bond works to defuse the international power struggle that has the world's oil supply hanging in the balance.",
+        "cast": "",
+        "releaseDate": "1999-11-17",
+        "rating": 6.276
+      }
     },
     {
-      "id": 240918,
-      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/1kfr1DlRFFKuNBM6W24GHwZvgg0.jpg",
-      "title": "Amazing",
-      "genre": "N/A",
-      "description": "Relive the greatest season in the history of BYU Basketball! Watch Coach Dave Rose and his team, led by NCAA player of the year Jimmer Fredette, march to a record 32 wins and their first Sweet 16 appearance in 30 years! With exclusive interviews from the team, the coaches, legendary ESPN analyst Dick Vitale, NFL Hall of Famer Steve Young, Boston Celtics General Manager Danny Ainge, along with coverage from ESPN and the 2011 NCAA Tournament, this feature length documentary puts you court-side in the middle of the action.  This is the official, most complete and comprehensive look you'll get into a season that can only be described as AMAZING.",
-      "cast": "",
-      "releaseDate": "2011-12-06",
-      "rating": 0
+      "id": "6b6b",
+      "userId": "1",
+      "movieId": 865686,
+      "movie": {
+        "id": 865686,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/sCKD2tbldX3jDtsOVU2QVGTw6Ua.jpg",
+        "title": "Good Mourning",
+        "genre": "N/A",
+        "description": "Movie star London Clash gets his world turned upside down when he must choose between pursuing his one true love and landing a life-changing starring role in a major motion picture.",
+        "cast": "",
+        "releaseDate": "2022-05-20",
+        "rating": 4.9
+      }
     },
     {
-      "id": 770906,
-      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/mNHdClul57prczb5O0krrzyonnn.jpg",
-      "title": "Salaar: Part 1 - Ceasefire",
-      "genre": "N/A",
-      "description": "Set in the fictional dystopian city-state of Khansaar, the film follows the friendship between Deva, a tribesman, and Varadha, the prince of Khansaar. When a coup d'état is planned by his father's ministers and his relatives, Varadha enlists Deva's help to become Khansaar's undisputed ruler.",
-      "cast": "",
-      "releaseDate": "2023-12-21",
-      "rating": 6.8
-    },
-    {
-      "id": 303903,
-      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/rA0KbJZbBt2fMmZs8bwPZnzFfDc.jpg",
-      "title": "Pokémon the Movie: Diancie and the Cocoon of Destruction",
-      "genre": "N/A",
-      "description": "In the underground Diamond Domain, where many Carbink live, the Mythical Pokémon Diancie serves as ruler. The Heart Diamond that sustains the land is beginning to fall apart, and Diancie is not yet strong enough to create a new one. While seeking help from the Legendary Pokémon Xerneas, Diancie encounters a group of thieves who want to take control of its diamond-producing power–and who awaken the Legendary Pokémon Yveltal from its cocoon in the process! Can Ash and his friends help Diancie discover its true power, stop Yveltal’s rampage, and save the Diamond Domain?",
-      "cast": "",
-      "releaseDate": "2014-07-19",
-      "rating": 6.7
+      "id": "ac83",
+      "userId": "1",
+      "movieId": 32526,
+      "movie": {
+        "id": 32526,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/ogxl6v4fPdqsYUwI2HNNNC68BAG.jpg",
+        "title": "Soldier's Girl",
+        "genre": "N/A",
+        "description": "This true story, which takes place in Fort Campbell, KY, tells the heart-wrenching story of the life and tragic death of soldier Barry Winchell. His love for Calpernia Addams, a transgender nightclub performer, was misunderstood by his fellow soldiers and eventually led to his murder.",
+        "cast": "",
+        "releaseDate": "2003-05-10",
+        "rating": 7
+      }
     }
   ]
 }

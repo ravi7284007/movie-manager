@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { bookMovie, selectMovie, fetchTopRatedMovies } from '../actions/movieActions';
-
+import { selectMovie, fetchTopRatedMovies } from '../actions/movieActions';
+import { bookMovie } from '../actions/bookedAction';
 const MovieListing = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
@@ -23,8 +23,8 @@ const MovieListing = () => {
         dispatch(selectMovie(movie));
         navigate(`/movie/${movie.id}`);
     };
-    const handleBook = (movie) => {
-        dispatch(bookMovie(movie));
+    const handleBook = (movie, userId) => {
+        dispatch(bookMovie(movie, userId) );
     };
 
     if (loading) return <p>Loading...</p>;
@@ -48,7 +48,7 @@ const MovieListing = () => {
                         <figcaption>
                             <h3>{movie.title}</h3>
                             <p>Rating: {movie.rating}</p>
-                            <button className="btn btn-outline-primary me-1" onClick={() => handleBook(movie)}>
+                            <button className="btn btn-outline-primary me-1" onClick={() => handleBook(movie, user.id)}>
                                 Book Now
                             </button>
                             <button className="btn btn-outline-primary" onClick={() => handleSelect(movie)}>View Details</button>

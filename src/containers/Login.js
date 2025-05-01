@@ -17,7 +17,6 @@ const Login = () => {
 
   if (auth.user) {
     navigate('/movie-listing');
-    // navigate('/search');
   }
 
   return (

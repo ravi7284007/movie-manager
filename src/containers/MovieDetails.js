@@ -5,9 +5,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchReviews, addReview, updateReview, deleteReview } from '../actions/reviewActions';
 import ReviewForm from '../components/ReviewForm';
 import ReviewList from '../components/ReviewList';
-import { bookMovie, selectMovie } from '../actions/movieActions';
+import { selectMovie } from '../actions/movieActions';
 import { fetchWatchlist } from '../actions/watchlistActions';
-
+import { bookMovie } from '../actions/bookedAction';
 const MovieDetails = () => {
   const movie = useSelector(state => state.movies.selectedMovie);
   const { list: reviews } = useSelector(state => state.reviews);
@@ -44,8 +44,8 @@ const MovieDetails = () => {
       dispatch(addReview(review));
     }
   };
-  const handleBook = (movie) => {
-    dispatch(bookMovie(movie));
+  const handleBook = (movie, userId) => {
+    dispatch(bookMovie(movie, userId));
   };
 
   const getRandomItems = (arr, count) => {
@@ -81,7 +81,7 @@ const MovieDetails = () => {
               </div>
               <div className=' col-md-5'>
 
-                <button className="btn btn-outline-primary col-md-6" onClick={() => handleBook(movie)}>
+                <button className="btn btn-outline-primary col-md-6" onClick={() => handleBook(movie, userId)}>
                   Book Now
                 </button>
               </div>

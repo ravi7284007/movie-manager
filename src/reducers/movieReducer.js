@@ -3,7 +3,7 @@ const initialState = {
   selectedMovie: null,
   loading: false,
   error: null,
-  topRated: []
+  topRated: [],
 };
 
 const movieReducer = (state = initialState, action) => {
@@ -24,15 +24,9 @@ const movieReducer = (state = initialState, action) => {
       return { ...state, loading: false, error: action.error };
     case 'SELECT_MOVIE':
       return { ...state, selectedMovie: action.payload };
-    case 'BOOK_MOVIE_SUCCESS':
-      return {
-        ...state,
-        booked: [...(state.booked || []), action.payload]
-      };
       case 'CLEAR_SEARCH_RESULTS':
             return { ...state, results: [] }; 
     default:
-      console.log('Unhandled action in movieReducer:', action);
       return state;
   }
 };

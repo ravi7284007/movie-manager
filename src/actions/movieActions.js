@@ -16,7 +16,7 @@ export const searchMovies = (query) => async (dispatch) => {
       id: movie.id,
       poster: `https://image.tmdb.org/t/p/w220_and_h330_face${movie.poster_path}`,
       title: movie.title,
-      genre: 'N/A', 
+      genre: 'N/A',
       description: movie.overview,
       cast: '',
       releaseDate: movie.release_date,
@@ -36,7 +36,7 @@ export const fetchTopRatedMovies = () => async (dispatch) => {
     const res = await axios.get(`https://api.themoviedb.org/3/discover/movie`, {
       params: {
         api_key: API_KEY,
-        sort_by: 'popularity.desc', 
+        sort_by: 'popularity.desc',
         page: randomPage,
       },
     });
@@ -62,15 +62,6 @@ export const selectMovie = (movie) => ({
   payload: movie
 });
 
-
-export const bookMovie = (movie) => async (dispatch) => {
-  try {
-    await axios.post('http://localhost:5000/bookedMovies', movie);
-    dispatch({ type: 'BOOK_MOVIE_SUCCESS', payload: movie });
-  } catch (error) {
-    dispatch({ type: 'BOOK_MOVIE_FAILURE', error: 'Failed to book movie' });
-  }
-};
 
 export const clearSearchResults = () => ({
   type: 'CLEAR_SEARCH_RESULTS',

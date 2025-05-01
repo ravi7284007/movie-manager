@@ -1,41 +1,30 @@
-import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { useSelector } from 'react-redux';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchBookedMovies } from '../actions/bookedAction';
 import { useNavigate } from 'react-router-dom';
 
 const BookedMovies = () => {
-  const [booked, setBooked] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const user = useSelector(state => state.auth.user);
+  const dispatch = useDispatch();
   const navigate = useNavigate();
-
-  useEffect(() => {
-    const fetchBookedMovies = async () => {
-      try {
-        const res = await axios.get('http://localhost:5000/bookedMovies');
-        setBooked(res.data);
-        setLoading(false);
-      } catch (err) {
-        setError('Failed to load booked movies.');
-        setLoading(false);
-      }
-    };
-
-    fetchBookedMovies();
-  }, []);
+  const user = useSelector(state => state.auth.user);
+  const { booked, loading, error } = useSelector(state => state.bookedMovies);
 
   useEffect(() => {
     if (!user) {
-        navigate('/');
+      navigate('/');
+    } else {
+      dispatch(fetchBookedMovies(user.id));
     }
-}, [user]);
+  }, [dispatch, user, navigate]);
 
-  const handleRemove = async (id) => {
+  const handleRemove = async (movieId) => {
     try {
-      await axios.delete(`http://localhost:3001/bookedMovies/${id}`);
-      // Remove from UI
-      setBooked(prev => prev.filter(movie => movie.id !== id));
+      const { data } = await axios.get(`http://localhost:5000/bookedMovies?userId=${user.id}&movieId=${movieId}`);
+      if (data.length > 0) {
+        await axios.delete(`http://localhost:5000/bookedMovies/${data[0].id}`);
+        dispatch(fetchBookedMovies(user.id)); // 👈 refresh after delete
+      }
     } catch (err) {
       console.error('Failed to delete movie:', err);
       alert('Failed to remove movie');
@@ -52,14 +41,14 @@ const BookedMovies = () => {
         {booked.length === 0 ? (
           <p>No movies booked yet.</p>
         ) : (
-          booked.map(movie => (
-            <div className="col-md-3 mb-3" key={movie.id}>
+          booked.map(item => (
+            <div className="col-md-3 mb-3" key={item.id}>
               <div className="card h-100">
-                <img src={movie.poster} className="card-img-top" alt={movie.title} />
+                <img src={item.movie.poster} className="card-img-top" alt={item.movie.title} />
                 <div className="card-body">
-                  <h5 className="card-title">{movie.title}</h5>
-                  <p><strong>Rating:</strong> {movie.rating}</p>
-                  <button className="btn btn-danger" onClick={() => handleRemove(movie?.id)}>
+                  <h5 className="card-title">{item.movie.title}</h5>
+                  <p><strong>Rating:</strong> {item.movie.rating}</p>
+                  <button className="btn btn-danger" onClick={() => handleRemove(item.movieId)}>
                     Remove
                   </button>
                 </div>
