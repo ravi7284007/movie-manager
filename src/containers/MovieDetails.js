@@ -121,9 +121,9 @@ const MovieDetails = () => {
                   padding: '10px',
                   height: '100%'
                 }}>
-                  <img src={movie.poster} alt={movie.title} />
+                  <img onClick={() => handleSelect(movie)} src={movie.poster} alt={movie.title} />
                   <figcaption>
-                    <h3>{movie.title}</h3>
+                    <h3 onClick={() => handleSelect(movie)}>{movie.title}</h3>
                     <p>Rating: {movie.rating}</p>
                     <button className="btn btn-outline-primary me-1" onClick={() => handleBook(movie)}>
                       Book Now
