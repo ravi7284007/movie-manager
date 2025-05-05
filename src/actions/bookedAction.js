@@ -3,6 +3,7 @@ import axios from 'axios';
 export const bookMovie = (movie, userId) => async (dispatch) => {
     try {
         const movieId = movie.id;
+        const randomPrice = Math.floor(Math.random() * (800 - 100 + 1)) + 100;
 
         const response = await axios.get(`http://localhost:5000/bookedMovies`, {
             params: {
@@ -12,13 +13,15 @@ export const bookMovie = (movie, userId) => async (dispatch) => {
         });
 
         if (response.data.length > 0) {
+            alert('Movie already booked')
             dispatch({ type: 'BOOK_MOVIE_FAILURE', error: 'Movie already booked' });
             return;
         }
-
         const movieWithUser = {
             userId,
             movieId,
+            moviePrice: randomPrice,
+            quantity: 1,
             movie
         };
 

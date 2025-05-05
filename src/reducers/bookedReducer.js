@@ -24,6 +24,9 @@ const bookedReducer = (state = initialState, action) => {
         case 'FETCH_BOOKED_MOVIES_SUCCESS':
             return { ...state, loading: false, booked: action.payload };
 
+            case 'BOOK_MOVIE_FAILURE':
+            return { ...state, loading: false, error: action.error };
+
         case 'FETCH_BOOKED_MOVIES_FAILURE':
             return { ...state, loading: false, error: action.error };
         default:

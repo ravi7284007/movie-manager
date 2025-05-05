@@ -75,21 +75,6 @@
       }
     },
     {
-      "id": "649b",
-      "userId": "1",
-      "movieId": 64202,
-      "movie": {
-        "id": 64202,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/8YgqCWC9Vf9732oa4uUcQRR38GC.jpg",
-        "title": "Batman Beyond: The Movie",
-        "genre": "N/A",
-        "description": "Fuelled by remorse and vengeance, a high schooler named Terry McGinnis becomes the new Batman as he fights crime in the futuristic Neo-Gotham City.",
-        "cast": "",
-        "releaseDate": "1999-01-10",
-        "rating": 7.247
-      }
-    },
-    {
       "id": "fb9f",
       "userId": "1",
       "movieId": 523638,
@@ -141,124 +126,107 @@
   ],
   "bookedMovies": [
     {
-      "id": "a124",
-      "userId": "1",
-      "movieId": 557,
+      "id": "f0cb",
+      "userId": "2",
+      "movieId": 571,
+      "moviePrice": 570,
+      "quantity": 1,
       "movie": {
-        "id": 557,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/gh4cZbhZxyTbgxQPxD0dOudNPTn.jpg",
-        "title": "Spider-Man",
+        "id": 571,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/eClg8QPg8mwB6INIC4pyR5pAbDr.jpg",
+        "title": "The Birds",
         "genre": "N/A",
-        "description": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
+        "description": "Thousands of birds flock into a seaside town and terrorize the residents in a series of deadly attacks.",
         "cast": "",
-        "releaseDate": "2002-05-01",
-        "rating": 7.309
+        "releaseDate": "1963-03-28",
+        "rating": 7.518
       }
     },
     {
-      "id": "2f92",
-      "userId": "1",
-      "movieId": 8587,
+      "id": "c977",
+      "userId": "2",
+      "movieId": 44932,
+      "moviePrice": 698,
+      "quantity": 2,
       "movie": {
-        "id": 8587,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
-        "title": "The Lion King",
+        "id": 44932,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/hKZ4ZVuHoph9bXZ0v9w9FmM20H3.jpg",
+        "title": "Without Warning",
         "genre": "N/A",
-        "description": "Young lion prince Simba, eager to one day become king of the Pride Lands, grows up under the watchful eye of his father Mufasa; all the while his villainous uncle Scar conspires to take the throne for himself. Amid betrayal and tragedy, Simba must confront his past and find his rightful place in the Circle of Life.",
+        "description": "Sandy and Greg are teenagers who go camping, despite warnings not to, with their friends. They soon encounter aliens, who are using the area as a hunting ground.",
         "cast": "",
-        "releaseDate": "1994-06-15",
-        "rating": 8.257
+        "releaseDate": "1980-09-26",
+        "rating": 5.295
       }
     },
     {
-      "id": "8a50",
-      "userId": "1",
-      "movieId": 372761,
+      "id": "d292",
+      "userId": "2",
+      "movieId": 272878,
+      "moviePrice": 713,
+      "quantity": 1,
       "movie": {
-        "id": 372761,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/t9ikHZFR9MvFMG7N7MMgCS7jzl7.jpg",
-        "title": "PERSONA3 THE MOVIE #4 Winter of Rebirth",
+        "id": 272878,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/d3ACos3t4YwXML8keTA0wKN8e36.jpg",
+        "title": "Max",
         "genre": "N/A",
-        "description": "To know death, to gaze at death, to face death. Makoto and his allies have grown through the many meetings and partings they have experienced.  Their fight might not be for the sake of the world, but for themselves. Even so, they have continued to fight, believing that there are peaceful days waiting at the end of the battle.  However, a boy says that destruction is the fate that humanity must shoulder. The boy they believed to be their friend tells them the truth of the situation without an emotion on his face.  The season changes to winter. Makoto makes a decision in order to greet the spring that is waiting beyond...",
+        "description": "A dog that helped soldiers in Afghanistan returns to the U.S. and is adopted by his handler's family after suffering a traumatic experience.",
         "cast": "",
-        "releaseDate": "2016-01-23",
-        "rating": 7.9
+        "releaseDate": "2015-06-25",
+        "rating": 7.146
       }
     },
     {
-      "id": "097f",
-      "userId": "1",
-      "movieId": 36643,
+      "id": "681f",
+      "userId": "2",
+      "movieId": 711643,
+      "moviePrice": 331,
+      "quantity": 1,
       "movie": {
-        "id": 36643,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/wCb2msgoZPK01WIqry24M4xsM73.jpg",
-        "title": "The World Is Not Enough",
+        "id": 711643,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/sXMwQnF7yEgCY0AwjG49vK1t4dz.jpg",
+        "title": "Chhorii",
         "genre": "N/A",
-        "description": "Greed, revenge, world dominance and high-tech terrorism – it's all in a day's work for Bond, who's on a mission to protect a beautiful oil heiress from a notorious terrorist. In a race against time that culminates in a dramatic submarine showdown, Bond works to defuse the international power struggle that has the world's oil supply hanging in the balance.",
+        "description": "Sakshi is eight months pregnant with her first child when she and Hemant are forced out of their home. They escape from the city and seek refuge in a house located deep inside sugarcane fields. The house is ridden with dark secrets that start unravelling as the story unfolds, posing a threat to Sakshi and her unborn child. Even as Sakshi tries to save herself and her unborn baby, scary sightings of three mysterious kids and a charred monster coupled with an eerie lullaby, emanating from an old transistor, wreak havoc with her sanity.",
         "cast": "",
-        "releaseDate": "1999-11-17",
-        "rating": 6.276
+        "releaseDate": "2021-11-26",
+        "rating": 6
       }
     },
     {
-      "id": "cbde",
-      "userId": "1",
-      "movieId": 39102,
+      "id": "108f",
+      "userId": "2",
+      "movieId": 62214,
+      "moviePrice": 689,
+      "quantity": 1,
       "movie": {
-        "id": 39102,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/1lmwZTsqwTtvd3m60pyQfhGM2Ut.jpg",
-        "title": "Dragon Ball Z: Lord Slug",
+        "id": 62214,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/yGjVbLVdZRBlZTTQVBsj2KUjL1s.jpg",
+        "title": "Frankenweenie",
         "genre": "N/A",
-        "description": "A Super Namekian named Slug comes to invade Earth. But the Z Warriors do their best to stop Slug and his gang.",
+        "description": "When a car hits young Victor's pet dog Sparky, Victor decides to bring him back to life the only way he knows how. But when the bolt-necked \"monster\" wreaks havoc and terror in the hearts of Victor's neighbors, he has to convince them that Sparky's still the good, loyal friend he was.",
         "cast": "",
-        "releaseDate": "1991-03-19",
-        "rating": 6.5
+        "releaseDate": "2012-10-04",
+        "rating": 6.998
       }
     },
     {
-      "id": "a7f8",
-      "userId": "1",
-      "movieId": 20986,
+      "id": "3a91",
+      "userId": "2",
+      "movieId": 631842,
+      "moviePrice": 358,
+      "quantity": 1,
       "movie": {
-        "id": 20986,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/nNjFlv4mJlkGLzfnLoU68YSy9KH.jpg",
-        "title": "Gurren Lagann the Movie: Childhood's End",
+        "id": 631842,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/dm06L9pxDOL9jNSK4Cb6y139rrG.jpg",
+        "title": "Knock at the Cabin",
         "genre": "N/A",
-        "description": "Simon and Kamina live in an underground city monitored by the village chief. When Simon stumbles upon an artifact and beastmen invade from the surface, Simon and Kamina rebel against them.",
+        "description": "While vacationing at a remote cabin, a young girl and her two fathers are taken hostage by four armed strangers who demand that the family make an unthinkable choice to avert the apocalypse. With limited access to the outside world, the family must decide what they believe before all is lost.",
         "cast": "",
-        "releaseDate": "2008-09-06",
-        "rating": 7.7
-      }
-    },
-    {
-      "id": "bc9c",
-      "userId": "1",
-      "movieId": 8587,
-      "movie": {
-        "id": 8587,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
-        "title": "The Lion King",
-        "genre": "N/A",
-        "description": "Young lion prince Simba, eager to one day become king of the Pride Lands, grows up under the watchful eye of his father Mufasa; all the while his villainous uncle Scar conspires to take the throne for himself. Amid betrayal and tragedy, Simba must confront his past and find his rightful place in the Circle of Life.",
-        "cast": "",
-        "releaseDate": "1994-06-15",
-        "rating": 8.257
-      }
-    },
-    {
-      "id": "915d",
-      "userId": "1",
-      "movieId": 615,
-      "movie": {
-        "id": 615,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/v9f9MMrq2nGQrN7cHnQRmEq9lSE.jpg",
-        "title": "The Passion of the Christ",
-        "genre": "N/A",
-        "description": "A graphic portrayal of the last twelve hours of Jesus of Nazareth's life.",
-        "cast": "",
-        "releaseDate": "2004-02-25",
-        "rating": 7.522
+        "releaseDate": "2023-02-01",
+        "rating": 6.277
       }
     }
-  ]
+  ],
+  "movieHistory": []
 }

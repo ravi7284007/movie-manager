@@ -10,6 +10,7 @@ const MovieListing = () => {
     const user = useSelector(state => state.auth.user);
 
     const { topRated, loading, error } = useSelector(state => state.movies);
+    
     useEffect(() => {
         dispatch(fetchTopRatedMovies());
 
