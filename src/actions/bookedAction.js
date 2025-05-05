@@ -2,9 +2,23 @@ import axios from 'axios';
 
 export const bookMovie = (movie, userId) => async (dispatch) => {
     try {
+        const movieId = movie.id;
+
+        const response = await axios.get(`http://localhost:5000/bookedMovies`, {
+            params: {
+                userId,
+                movieId
+            }
+        });
+
+        if (response.data.length > 0) {
+            dispatch({ type: 'BOOK_MOVIE_FAILURE', error: 'Movie already booked' });
+            return;
+        }
+
         const movieWithUser = {
             userId,
-            movieId: movie.id,
+            movieId,
             movie
         };
 
@@ -15,7 +29,6 @@ export const bookMovie = (movie, userId) => async (dispatch) => {
         dispatch({ type: 'BOOK_MOVIE_FAILURE', error: 'Failed to book movie' });
     }
 };
-
 export const fetchBookedMovies = (userId) => async (dispatch) => {
     dispatch({ type: 'FETCH_BOOKED_MOVIES_REQUEST' });
     try {
