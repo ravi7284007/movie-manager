@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import axios from 'axios';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchWatchlist, removeFromWatchlist } from '../actions/watchlistActions';
 import { selectMovie } from '../actions/movieActions';
@@ -16,7 +17,14 @@ const Watchlist = () => {
     }
   }, [user, dispatch]);
 
-  const handleRemove = (movieId) => {
+  const handleRemove = async (movieId, movie) => {
+    await axios.post('http://localhost:5000/movieHistory', {
+      userId : user.id,
+      movieId,
+      movie,
+      status: 'remove from watchlist',
+      timestamp: new Date().toISOString()
+    });
     dispatch(removeFromWatchlist(user.id, movieId));
   };
 
@@ -39,7 +47,7 @@ const Watchlist = () => {
                   <p>Rating - {movie?.rating} | Date - {movie?.releaseDate}</p>
                   <button
                     className="btn btn-danger"
-                    onClick={() => handleRemove(movie?.id)}
+                    onClick={() => handleRemove(movie?.id, movie)}
                   >
                     Remove
                   </button>

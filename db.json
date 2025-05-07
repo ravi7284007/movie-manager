@@ -60,21 +60,6 @@
       }
     },
     {
-      "id": "8a02",
-      "userId": "2",
-      "movieId": 91010,
-      "movie": {
-        "id": 91010,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/wfRJbhF3zkp3eBpSHkLyzLIKqEM.jpg",
-        "title": "Game Change",
-        "genre": "N/A",
-        "description": "During the Republican run of the 2008 Presidential election, candidate John McCain picks a relative unknown, Alaskan governor Sarah Palin, to be his running mate.  As the campaign kicks into high gear, her lack of experience, in both political and media savvy, becomes a drain upon McCain and his strategists.",
-        "cast": "",
-        "releaseDate": "2012-02-28",
-        "rating": 6.9
-      }
-    },
-    {
       "id": "fb9f",
       "userId": "1",
       "movieId": 523638,
@@ -88,145 +73,346 @@
         "releaseDate": "2021-08-31",
         "rating": 5.004
       }
-    }
-  ],
-  "reviews": [
-    {
-      "id": "a435",
-      "movieId": 24428,
-      "userId": 1,
-      "username": "Ravi",
-      "comment": "Avengers are awesome",
-      "rating": 5
     },
     {
-      "id": "0da6",
-      "movieId": 24428,
-      "userId": 1,
-      "username": "Ravi",
-      "comment": "Iron Man",
-      "rating": 3
-    },
-    {
-      "id": "ecb3",
-      "movieId": 671,
-      "userId": 1,
-      "username": "Ravi",
-      "comment": "Hi Harry",
-      "rating": 5
-    },
-    {
-      "id": "f53b",
-      "movieId": 7288,
-      "userId": 1,
-      "username": "Ravi",
-      "comment": "Hello",
-      "rating": 3
-    }
-  ],
-  "bookedMovies": [
-    {
-      "id": "f0cb",
+      "id": "026e",
       "userId": "2",
-      "movieId": 571,
-      "moviePrice": 570,
-      "quantity": 1,
+      "movieId": 116776,
       "movie": {
-        "id": 571,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/eClg8QPg8mwB6INIC4pyR5pAbDr.jpg",
-        "title": "The Birds",
+        "id": 116776,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/4uPs9rjKkGWOmc5QO4VV08YdLpV.jpg",
+        "title": "Dragon Ball: Mystical Adventure",
         "genre": "N/A",
-        "description": "Thousands of birds flock into a seaside town and terrorize the residents in a series of deadly attacks.",
+        "description": "Master Roshi has succeeded at the one mission he valued most: to train Goku and Krillin to become ultimate fighters. So, he arranges for them to test their mettle at a competition hosted by Emperor Chiaotzu. Not everyone's playing by the rules, however, as a member of the ruler's household schemes to use the Dragonballs to extort money and power from the royal.",
         "cast": "",
-        "releaseDate": "1963-03-28",
-        "rating": 7.518
+        "releaseDate": "1988-07-09",
+        "rating": 6.717
       }
     },
     {
-      "id": "c977",
+      "id": "8832",
       "userId": "2",
-      "movieId": 44932,
-      "moviePrice": 698,
-      "quantity": 2,
+      "movieId": 140607,
       "movie": {
-        "id": 44932,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/hKZ4ZVuHoph9bXZ0v9w9FmM20H3.jpg",
-        "title": "Without Warning",
+        "id": 140607,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/wqnLdwVXoBjKibFRR5U3y0aDUhs.jpg",
+        "title": "Star Wars: The Force Awakens",
         "genre": "N/A",
-        "description": "Sandy and Greg are teenagers who go camping, despite warnings not to, with their friends. They soon encounter aliens, who are using the area as a hunting ground.",
+        "description": "Thirty years after defeating the Galactic Empire, Han Solo and his allies face a new threat from the evil Kylo Ren and his army of Stormtroopers.",
         "cast": "",
-        "releaseDate": "1980-09-26",
-        "rating": 5.295
+        "releaseDate": "2015-12-15",
+        "rating": 7.261
       }
     },
     {
-      "id": "d292",
+      "id": "8f02",
       "userId": "2",
-      "movieId": 272878,
-      "moviePrice": 713,
-      "quantity": 1,
+      "movieId": 609681,
       "movie": {
-        "id": 272878,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/d3ACos3t4YwXML8keTA0wKN8e36.jpg",
-        "title": "Max",
+        "id": 609681,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/9GBhzXMFjgcZ3FdR9w3bUMMTps5.jpg",
+        "title": "The Marvels",
         "genre": "N/A",
-        "description": "A dog that helped soldiers in Afghanistan returns to the U.S. and is adopted by his handler's family after suffering a traumatic experience.",
+        "description": "When her duties send her to an anomalous wormhole linked to a Kree revolutionary, Carol's powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms. Marvel, and Carol's estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau. Together, this unlikely trio must team up and learn to work in concert to save the universe.",
         "cast": "",
-        "releaseDate": "2015-06-25",
-        "rating": 7.146
-      }
-    },
-    {
-      "id": "681f",
-      "userId": "2",
-      "movieId": 711643,
-      "moviePrice": 331,
-      "quantity": 1,
-      "movie": {
-        "id": 711643,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/sXMwQnF7yEgCY0AwjG49vK1t4dz.jpg",
-        "title": "Chhorii",
-        "genre": "N/A",
-        "description": "Sakshi is eight months pregnant with her first child when she and Hemant are forced out of their home. They escape from the city and seek refuge in a house located deep inside sugarcane fields. The house is ridden with dark secrets that start unravelling as the story unfolds, posing a threat to Sakshi and her unborn child. Even as Sakshi tries to save herself and her unborn baby, scary sightings of three mysterious kids and a charred monster coupled with an eerie lullaby, emanating from an old transistor, wreak havoc with her sanity.",
-        "cast": "",
-        "releaseDate": "2021-11-26",
+        "releaseDate": "2023-11-08",
         "rating": 6
       }
     },
     {
-      "id": "108f",
+      "id": "2d30",
       "userId": "2",
-      "movieId": 62214,
-      "moviePrice": 689,
-      "quantity": 1,
+      "movieId": 36218,
       "movie": {
-        "id": 62214,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/yGjVbLVdZRBlZTTQVBsj2KUjL1s.jpg",
-        "title": "Frankenweenie",
+        "id": 36218,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/jbH0tIEymhyd6uk4xV4vrS6qybV.jpg",
+        "title": "Pokémon: Jirachi - Wish Maker",
         "genre": "N/A",
-        "description": "When a car hits young Victor's pet dog Sparky, Victor decides to bring him back to life the only way he knows how. But when the bolt-necked \"monster\" wreaks havoc and terror in the hearts of Victor's neighbors, he has to convince them that Sparky's still the good, loyal friend he was.",
+        "description": "Ash, May, Brock, and Max come upon the festival of the Wishing Star of Seven Nights. During their enjoyment, the legendary Pokemon--Jirachi, descends from the heavens and befriends Max. Jirachi, with the power to grant any wish, is sought after by many people wanting to claim its power. One man seeks to use its legendary power to revive an ancient Pokemon known as Groudon, unaware of the dangers hidden within Jirachi's powers",
         "cast": "",
-        "releaseDate": "2012-10-04",
-        "rating": 6.998
+        "releaseDate": "2003-07-19",
+        "rating": 6.6
       }
     },
     {
-      "id": "3a91",
+      "id": "6fc6",
       "userId": "2",
-      "movieId": 631842,
-      "moviePrice": 358,
-      "quantity": 1,
+      "movieId": 105864,
       "movie": {
-        "id": 631842,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/dm06L9pxDOL9jNSK4Cb6y139rrG.jpg",
-        "title": "Knock at the Cabin",
+        "id": 105864,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/8RSkxOO80btfKjyiC5ZiTaCHIT8.jpg",
+        "title": "The Good Dinosaur",
         "genre": "N/A",
-        "description": "While vacationing at a remote cabin, a young girl and her two fathers are taken hostage by four armed strangers who demand that the family make an unthinkable choice to avert the apocalypse. With limited access to the outside world, the family must decide what they believe before all is lost.",
+        "description": "An epic journey into the world of dinosaurs where an Apatosaurus named Arlo makes an unlikely human friend.",
         "cast": "",
-        "releaseDate": "2023-02-01",
-        "rating": 6.277
+        "releaseDate": "2015-11-14",
+        "rating": 6.734
+      }
+    },
+    {
+      "id": "68ad",
+      "userId": "2",
+      "movieId": 4435,
+      "movie": {
+        "id": 4435,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/ckFDMqLjhsYo2kH3X5auV1NnjPM.jpg",
+        "title": "Aśoka",
+        "genre": "N/A",
+        "description": "A young Prince Asoka works to perfect his skills in battle and also deals with family conflict. During a struggle with one of his step-brothers, his mother urges Asoka to escape to stay alive. While away, Asoka meets Kaurwaki and falls in love, but must use his skills as a warrior to protect her. A dangerous and heartbreaking web of conspiracy follows, which leads Asoka to embrace a Buddhist path.",
+        "cast": "",
+        "releaseDate": "2001-09-13",
+        "rating": 6.5
+      }
+    },
+    {
+      "id": "9317",
+      "userId": "2",
+      "movieId": 44896,
+      "movie": {
+        "id": 44896,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/A5MP1guV8pbruieG0tnpPIbaJtt.jpg",
+        "title": "Rango",
+        "genre": "N/A",
+        "description": "When Rango, a lost family pet, accidentally winds up in the gritty, gun-slinging town of Dirt, the less-than-courageous lizard suddenly finds he stands out. Welcomed as the last hope the town has been waiting for, new Sheriff Rango is forced to play his new role to the hilt.",
+        "cast": "",
+        "releaseDate": "2011-03-02",
+        "rating": 6.872
+      }
+    },
+    {
+      "id": "f99b",
+      "userId": "2",
+      "movieId": 1257394,
+      "movie": {
+        "id": 1257394,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/lDKx2eEinTYw1kNTHJLYtfIgOFV.jpg",
+        "title": "The Cliche",
+        "genre": "N/A",
+        "description": "A man down on his luck is forced to take a role in a TV drama he doesn't like. Unexpectedly, he finds his real life and the Soap opera overlapping.",
+        "cast": "",
+        "releaseDate": "2024-12-26",
+        "rating": 5
+      }
+    },
+    {
+      "id": "c593",
+      "userId": "2",
+      "movieId": 34433,
+      "movie": {
+        "id": 34433,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/6iO8TJCyLI4BiPYOvdwzPV2bhoV.jpg",
+        "title": "Dragon Ball Z: Broly - The Legendary Super Saiyan",
+        "genre": "N/A",
+        "description": "While the Saiyan Paragus persuades Vegeta to rule a new planet, King Kai alerts Goku of the South Galaxy's destruction by an unknown Super Saiyan.",
+        "cast": "",
+        "releaseDate": "1993-03-06",
+        "rating": 7.206
+      }
+    },
+    {
+      "id": "9b4a",
+      "userId": "2",
+      "movieId": 212778,
+      "movie": {
+        "id": 212778,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/hyp8EXDmO4dSC8V6Q5jU7gD1kcg.jpg",
+        "title": "Chef",
+        "genre": "N/A",
+        "description": "When Chef Carl Casper suddenly quits his job at a prominent Los Angeles restaurant after refusing to compromise his creative integrity for its controlling owner, he is left to figure out what's next. Finding himself in Miami, he teams up with his ex-wife, his friend and his son to launch a food truck. Taking to the road, Chef Carl goes back to his roots to reignite his passion for the kitchen -- and zest for life and love.",
+        "cast": "",
+        "releaseDate": "2014-05-08",
+        "rating": 7.112
       }
     }
   ],
-  "movieHistory": []
+  "reviews": [],
+  "bookedMovies": [],
+  "movieHistory": [
+    {
+      "id": "3264",
+      "userId": "2",
+      "movieId": 212778,
+      "moviePrice": 747,
+      "quantity": 1,
+      "movie": {
+        "id": 212778,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/hyp8EXDmO4dSC8V6Q5jU7gD1kcg.jpg",
+        "title": "Chef",
+        "genre": "N/A",
+        "description": "When Chef Carl Casper suddenly quits his job at a prominent Los Angeles restaurant after refusing to compromise his creative integrity for its controlling owner, he is left to figure out what's next. Finding himself in Miami, he teams up with his ex-wife, his friend and his son to launch a food truck. Taking to the road, Chef Carl goes back to his roots to reignite his passion for the kitchen -- and zest for life and love.",
+        "cast": "",
+        "releaseDate": "2014-05-08",
+        "rating": 7.112
+      },
+      "status": "Booked",
+      "timestamp": "2025-05-07T11:41:16.847Z"
+    },
+    {
+      "id": "43b4",
+      "userId": "2",
+      "movieId": 6145,
+      "moviePrice": 792,
+      "quantity": 1,
+      "movie": {
+        "id": 6145,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/qNen8x5gaikjIg9CFihgxYcJwQe.jpg",
+        "title": "Fracture",
+        "genre": "N/A",
+        "description": "A husband is on trial for the attempted murder of his wife, in what is seemingly an open/shut case for the ambitious district attorney trying to put him away. However, there are surprises for both around every corner, and, as a suspenseful game of cat-and-mouse is played out, each must manipulate and outwit the other.",
+        "cast": "",
+        "releaseDate": "2007-04-19",
+        "rating": 7.269
+      },
+      "status": "Booked",
+      "timestamp": "2025-05-07T11:41:19.104Z"
+    },
+    {
+      "id": "e937",
+      "userId": "2",
+      "movieId": 34433,
+      "movie": {
+        "id": 34433,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/6iO8TJCyLI4BiPYOvdwzPV2bhoV.jpg",
+        "title": "Dragon Ball Z: Broly - The Legendary Super Saiyan",
+        "genre": "N/A",
+        "description": "While the Saiyan Paragus persuades Vegeta to rule a new planet, King Kai alerts Goku of the South Galaxy's destruction by an unknown Super Saiyan.",
+        "cast": "",
+        "releaseDate": "1993-03-06",
+        "rating": 7.206
+      },
+      "status": "Add to watchlist",
+      "timestamp": "2025-05-07T11:41:22.554Z"
+    },
+    {
+      "id": "d7ee",
+      "userId": "2",
+      "movieId": 122906,
+      "quantity": 1,
+      "moviePrice": 736,
+      "movie": {
+        "id": 122906,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/iR1bVfURbN7r1C46WHFbwCkVve.jpg",
+        "title": "About Time",
+        "genre": "N/A",
+        "description": "The night after another unsatisfactory New Year's party, Tim's father tells his son that the men in his family have always had the ability to travel through time. They can't change history, but they can change what happens and has happened in their own lives. Thus begins the start of a lesson in learning to appreciate life itself as it is, as it comes, and most importantly, the people living alongside us.",
+        "cast": "",
+        "releaseDate": "2013-09-04",
+        "rating": 7.916
+      },
+      "status": "Deleted",
+      "timestamp": "2025-05-07T11:45:29.852Z"
+    },
+    {
+      "id": "3f3a",
+      "userId": "2",
+      "movieId": 10907,
+      "quantity": 1,
+      "moviePrice": 735,
+      "movie": {
+        "id": 10907,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/4mazyXEMkmLw5h6076yyNSm9uv0.jpg",
+        "title": "The Adventures of Robin Hood",
+        "genre": "N/A",
+        "description": "Robin Hood fights nobly for justice against the evil Sir Guy of Gisbourne while striving to win the hand of the beautiful Maid Marian.",
+        "cast": "",
+        "releaseDate": "1938-05-13",
+        "rating": 7.467
+      },
+      "status": "Deleted",
+      "timestamp": "2025-05-07T11:45:31.181Z"
+    },
+    {
+      "id": "99c6",
+      "userId": "2",
+      "movieId": 212778,
+      "quantity": 1,
+      "moviePrice": 747,
+      "movie": {
+        "id": 212778,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/hyp8EXDmO4dSC8V6Q5jU7gD1kcg.jpg",
+        "title": "Chef",
+        "genre": "N/A",
+        "description": "When Chef Carl Casper suddenly quits his job at a prominent Los Angeles restaurant after refusing to compromise his creative integrity for its controlling owner, he is left to figure out what's next. Finding himself in Miami, he teams up with his ex-wife, his friend and his son to launch a food truck. Taking to the road, Chef Carl goes back to his roots to reignite his passion for the kitchen -- and zest for life and love.",
+        "cast": "",
+        "releaseDate": "2014-05-08",
+        "rating": 7.112
+      },
+      "status": "Deleted",
+      "timestamp": "2025-05-07T11:45:35.944Z"
+    },
+    {
+      "id": "df5d",
+      "userId": "2",
+      "movieId": 212778,
+      "movie": {
+        "id": 212778,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/hyp8EXDmO4dSC8V6Q5jU7gD1kcg.jpg",
+        "title": "Chef",
+        "genre": "N/A",
+        "description": "When Chef Carl Casper suddenly quits his job at a prominent Los Angeles restaurant after refusing to compromise his creative integrity for its controlling owner, he is left to figure out what's next. Finding himself in Miami, he teams up with his ex-wife, his friend and his son to launch a food truck. Taking to the road, Chef Carl goes back to his roots to reignite his passion for the kitchen -- and zest for life and love.",
+        "cast": "",
+        "releaseDate": "2014-05-08",
+        "rating": 7.112
+      },
+      "status": "Add to watchlist",
+      "timestamp": "2025-05-07T11:46:27.827Z"
+    },
+    {
+      "id": "0e15",
+      "userId": "2",
+      "movieId": 212778,
+      "moviePrice": 659,
+      "quantity": 1,
+      "movie": {
+        "id": 212778,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/hyp8EXDmO4dSC8V6Q5jU7gD1kcg.jpg",
+        "title": "Chef",
+        "genre": "N/A",
+        "description": "When Chef Carl Casper suddenly quits his job at a prominent Los Angeles restaurant after refusing to compromise his creative integrity for its controlling owner, he is left to figure out what's next. Finding himself in Miami, he teams up with his ex-wife, his friend and his son to launch a food truck. Taking to the road, Chef Carl goes back to his roots to reignite his passion for the kitchen -- and zest for life and love.",
+        "cast": "",
+        "releaseDate": "2014-05-08",
+        "rating": 7.112
+      },
+      "status": "Booked",
+      "timestamp": "2025-05-07T11:46:31.237Z"
+    },
+    {
+      "id": "916c",
+      "userId": "2",
+      "movieId": 6145,
+      "quantity": 1,
+      "moviePrice": 792,
+      "movie": {
+        "id": 6145,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/qNen8x5gaikjIg9CFihgxYcJwQe.jpg",
+        "title": "Fracture",
+        "genre": "N/A",
+        "description": "A husband is on trial for the attempted murder of his wife, in what is seemingly an open/shut case for the ambitious district attorney trying to put him away. However, there are surprises for both around every corner, and, as a suspenseful game of cat-and-mouse is played out, each must manipulate and outwit the other.",
+        "cast": "",
+        "releaseDate": "2007-04-19",
+        "rating": 7.269
+      },
+      "status": "Deleted",
+      "timestamp": "2025-05-07T11:46:33.348Z"
+    },
+    {
+      "id": "3ee7",
+      "userId": "2",
+      "movieId": 212778,
+      "quantity": 1,
+      "moviePrice": 659,
+      "movie": {
+        "id": 212778,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/hyp8EXDmO4dSC8V6Q5jU7gD1kcg.jpg",
+        "title": "Chef",
+        "genre": "N/A",
+        "description": "When Chef Carl Casper suddenly quits his job at a prominent Los Angeles restaurant after refusing to compromise his creative integrity for its controlling owner, he is left to figure out what's next. Finding himself in Miami, he teams up with his ex-wife, his friend and his son to launch a food truck. Taking to the road, Chef Carl goes back to his roots to reignite his passion for the kitchen -- and zest for life and love.",
+        "cast": "",
+        "releaseDate": "2014-05-08",
+        "rating": 7.112
+      },
+      "status": "Deleted",
+      "timestamp": "2025-05-07T11:46:34.054Z"
+    }
+  ]
 }

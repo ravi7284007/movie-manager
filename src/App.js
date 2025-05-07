@@ -7,6 +7,7 @@ import MovieDetails from './containers/MovieDetails';
 import Watchlist from './containers/Watchlist';
 import MovieListing from './containers/MovieListing';
 import BookedMovies from './containers/BookedMovies';
+import MovieHistory from './containers/MovieHistory';
 import "./App.css";
 
 const App = () => (
@@ -19,6 +20,7 @@ const App = () => (
       <Route path="/movie/:id" element={<MovieDetails />} />
       <Route path="/watchlist" element={<Watchlist />} />
       <Route path="/booked" element={<BookedMovies />} />
+      <Route path="/history" element={<MovieHistory />} />
     </Routes>
   </div>
 

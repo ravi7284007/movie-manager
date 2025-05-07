@@ -15,6 +15,7 @@ const BookedMovies = () => {
   const navigate = useNavigate();
   const user = useSelector(state => state.auth.user);
   const { booked, loading, error } = useSelector(state => state.bookedMovies);
+
   const printRef = useRef();
   useEffect(() => {
     if (!user) {
@@ -24,12 +25,22 @@ const BookedMovies = () => {
     }
   }, [dispatch, user, navigate]);
 
-  const handleRemove = async (movieId) => {
+  const handleRemove = async (movieId, movie, moviePrice, quantity) => {
     try {
       const { data } = await axios.get(`http://localhost:5000/bookedMovies?userId=${user.id}&movieId=${movieId}`);
       if (data.length > 0) {
         await axios.delete(`http://localhost:5000/bookedMovies/${data[0].id}`);
-        dispatch(fetchBookedMovies(user.id)); 
+        dispatch(fetchBookedMovies(user.id));
+
+        await axios.post('http://localhost:5000/movieHistory', {
+          userId: user.id,
+          movieId,
+          quantity,
+          moviePrice,
+          movie,
+          status: 'Deleted',
+          timestamp: new Date().toISOString()
+        });
       }
     } catch (err) {
       console.error('Failed to delete movie:', err);
@@ -45,8 +56,7 @@ const BookedMovies = () => {
       await axios.patch(`http://localhost:5000/bookedMovies/${item.id}`, {
         quantity: newQuantity
       });
-      console.log(newQuantity);
-      
+
       dispatch(fetchBookedMovies(user.id));
     } catch (err) {
       console.error('Failed to update quantity:', err);
@@ -56,7 +66,7 @@ const BookedMovies = () => {
 
   const calculateTotal = () => {
     const subtotal = booked.reduce((acc, item) => acc + item.moviePrice * item.quantity, 0);
-    const discount = subtotal > 1500 ? 200 : 0;
+    const discount = subtotal > 1500 ? 200 : 10;
     const total = subtotal - discount;
     return { subtotal, discount, total };
   };
@@ -70,13 +80,13 @@ const BookedMovies = () => {
   const handlePrint = () => {
     const input = printRef.current;
     html2canvas(input, { useCORS: true, allowTaint: false, scale: 2 }).then(canvas => {
-      const imgData = canvas.toDataURL('image/png');
+      const imgData = canvas.toDataURL('image/jpg');
       const pdf = new jsPDF();
       const imgProps = pdf.getImageProperties(imgData);
       const pdfWidth = pdf.internal.pageSize.getWidth();
       const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
 
-      pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
+      pdf.addImage(imgData, 'JPG', 0, 0, pdfWidth, pdfHeight);
       pdf.save('booked-movies.pdf');
     });
   };
@@ -96,7 +106,7 @@ const BookedMovies = () => {
 
               {booked.map(item => (
                 <div className="col-md-12 mb-3 " key={item.id}>
-                  <div className="row h-100" style={booked.length > 0 ? { borderBottom: '1px solid #0000002d'} : null}>
+                  <div className="row h-100" style={booked.length > 0 ? { borderBottom: '1px solid #0000002d' } : null}>
                     <div className='col-md-2'>
                       <img onClick={() => handleSlectedMovie(item)} src={item.movie.poster} className="card-img-top" alt={item.movie.title} />
                     </div>
@@ -111,10 +121,10 @@ const BookedMovies = () => {
                           {item.quantity}
                           <button className="btn btn-sm btn-secondary mx-2" onClick={() => updateQuantity(item, 1)}>+</button>
                         </p>
-                        <button onClick={() => handleRemove(item.movieId)} className="btn btn-primary" >
+                        <button onClick={() => handleRemove(item.movieId, item.movie, item.moviePrice, item.quantity)} className="btn btn-primary" >
                           Cancel
                         </button>
-                        <button className="btn btn-danger" onClick={() => handleRemove(item.movieId)}>
+                        <button className="btn btn-danger" onClick={() => handleRemove(item.movieId, item.movie, item.moviePrice, item.quantity)}>
                           Remove
                         </button>
                       </div>
@@ -126,8 +136,9 @@ const BookedMovies = () => {
           </div>
           <div className='col-md-4'>
             <div className='card'>
-              {/* <div className="card-body">
+              <div className="card-body">
                 <h5 className="card-title">Total Summary</h5>
+                <p><small>Add total amount more than <strong>₹1500</strong> get discount <strong>₹200</strong></small></p>
                 <hr />
                 <p><strong>Subtotal:</strong> ₹ {subtotal}</p>
                 <p><strong>Discount:</strong> ₹ {discount}</p>
@@ -136,7 +147,7 @@ const BookedMovies = () => {
               </div>
               <button className="btn btn-success w-100 mt-2" onClick={handlePrint} data-html2canvas-ignore="true">
                 Print Tickets
-              </button> */}
+              </button>
             </div>
           </div>
         </div>

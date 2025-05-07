@@ -130,3 +130,36 @@ div .form-control {
   .app-footer .text-center {
 	margin: 0;
   }
+  .navbar-style {
+    background-color: #2a67ad !important;
+  }
+  nav.navbar.navbar-expand-lg.bg-warning.px-3 {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    box-shadow: 0 0 10px #999;
+  }
+  
+  .nav-link.active {
+    color: #ffffff;
+    border-bottom: 2px sold #ffffff;
+  }
+  
+  .header {
+    background-color: #e6e6e6;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .no-print {
+    display: block;
+  }
+  
+  html2canvas-ignore {
+    display: none !important;
+  }
+  .row.movieList .col-md-12.mb-3:last-child > div {
+    border: 0 !important;
+  }
+  

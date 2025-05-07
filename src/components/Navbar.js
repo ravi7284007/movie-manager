@@ -24,6 +24,7 @@ const Navbar = () => {
             <Link className="nav-link" to="/search">Search</Link>
             <Link className="nav-link" to="/watchlist">Watchlist</Link>
             <Link className="nav-link" to="/booked">Booked Movie</Link>
+            <Link className="nav-link" to="/history">History</Link>
           </>
         )}
       </div>

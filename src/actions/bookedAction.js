@@ -27,6 +27,16 @@ export const bookMovie = (movie, userId) => async (dispatch) => {
 
         await axios.post('http://localhost:5000/bookedMovies', movieWithUser);
 
+        await axios.post('http://localhost:5000/movieHistory', {
+            userId,
+            movieId,
+            moviePrice: randomPrice,
+            quantity: 1,
+            movie,
+            status: 'Booked',
+            timestamp: new Date().toISOString()
+        });
+
         dispatch({ type: 'BOOK_MOVIE_SUCCESS', payload: movieWithUser });
     } catch (error) {
         dispatch({ type: 'BOOK_MOVIE_FAILURE', error: 'Failed to book movie' });

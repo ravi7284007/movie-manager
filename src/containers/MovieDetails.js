@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { addToWatchlist } from '../actions/watchlistActions';
@@ -17,9 +18,16 @@ const MovieDetails = () => {
   const dispatch = useDispatch();
   const userId = useSelector(state => state.auth.user.id)
 
-  const handleAddToWatchlist = () => {
+  const handleAddToWatchlist = async (movieId, movie) => {
 
     if (movie) {
+      await axios.post('http://localhost:5000/movieHistory', {
+        userId,
+        movieId,
+        movie,
+        status: 'Add to watchlist',
+        timestamp: new Date().toISOString()
+      });
       dispatch(addToWatchlist(userId, movie));
     }
   };
@@ -75,7 +83,7 @@ const MovieDetails = () => {
             <p><strong>Description:</strong> {movie.description}</p>
             <div className='row mt-3'>
               <div className=' col-md-3'>
-                <button className="btn btn-outline-info" onClick={handleAddToWatchlist}>
+                <button className="btn btn-outline-info" onClick={() => handleAddToWatchlist(movie.id, movie)}>
                   Add to Watchlist
                 </button>
               </div>
@@ -90,7 +98,7 @@ const MovieDetails = () => {
         </div>
         <div className='col-md-5'>
           <div className="card p-4 shadow">
-            <h4>{movie.title}</h4> 
+            <h4>{movie.title}</h4>
             <ReviewForm
               movieId={movie.id}
               onSubmit={handleReviewSubmit}
