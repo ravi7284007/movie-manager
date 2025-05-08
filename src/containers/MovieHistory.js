@@ -40,9 +40,35 @@ const MovieHistory = () => {
     }
   };
 
+  const handleRemoveAll = async () => {
+    if (!window.confirm("Are you sure you want to remove all history?")) return;
+  
+    try {
+      const { data } = await axios.get(`http://localhost:5000/movieHistory?userId=${user.id}`);
+      
+      await Promise.all(
+        data.map(item =>
+          axios.delete(`http://localhost:5000/movieHistory/${item.id}`)
+        )
+      );
+  
+      setHistory([]);
+    } catch (err) {
+      console.error('Failed to delete all history:', err);
+      alert('Failed to remove all history');
+    }
+  };
+  
+
   return (
     <div className="container">
-      <h2 className="mb-4">Booking History</h2>
+      <h2 className="mb-4 align-items-center d-flex justify-content-between">Booking History 
+      {history.length > 0 && (
+    <button className="btn btn-danger" onClick={handleRemoveAll}>
+      Remove All History
+    </button>
+)}
+      </h2>
       {history.length === 0 ? (
         <p>No history found.</p>
       ) : (
@@ -56,7 +82,7 @@ const MovieHistory = () => {
                       <img onClick={()=> handleSlectedMovie(item)} src={item.movie.poster} style={{ maxWidth: '100%' }} alt="" />
                     </div>
                     <div className='col-10'>
-                      <h5 onClick={()=> handleSlectedMovie(item)}  className="card-title mt-0 d-flex justify-content-between">
+                      <h5 className="card-title mt-0 d-flex justify-content-between">
                         {item.movie?.title}
                         <button
                           className="btn btn-outline-danger"

@@ -90,21 +90,6 @@
       }
     },
     {
-      "id": "8832",
-      "userId": "2",
-      "movieId": 140607,
-      "movie": {
-        "id": 140607,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/wqnLdwVXoBjKibFRR5U3y0aDUhs.jpg",
-        "title": "Star Wars: The Force Awakens",
-        "genre": "N/A",
-        "description": "Thirty years after defeating the Galactic Empire, Han Solo and his allies face a new threat from the evil Kylo Ren and his army of Stormtroopers.",
-        "cast": "",
-        "releaseDate": "2015-12-15",
-        "rating": 7.261
-      }
-    },
-    {
       "id": "8f02",
       "userId": "2",
       "movieId": 609681,
@@ -223,196 +208,217 @@
         "releaseDate": "2014-05-08",
         "rating": 7.112
       }
+    },
+    {
+      "id": "0b91",
+      "userId": "2",
+      "movieId": 1026202,
+      "movie": {
+        "id": 1026202,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/wj6cbxh1e8h21R3FOPil19lnIkv.jpg",
+        "title": "Giantess Battle Attack!",
+        "genre": "N/A",
+        "description": "The beautiful, beastly Beverly returns and faces a new gaggle of gargantuan gals, hell bent on achieving deluxe diva domination. Get ready for the cinematic smackdown thrills of Giantess Battle Attack. Size really does matter.",
+        "cast": "",
+        "releaseDate": "2022-10-20",
+        "rating": 6.5
+      }
+    },
+    {
+      "id": "7835",
+      "userId": "1",
+      "movieId": 13475,
+      "movie": {
+        "id": 13475,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/lV5OpzAss1z06YNagOVap1I35mH.jpg",
+        "title": "Star Trek",
+        "genre": "N/A",
+        "description": "The fate of the galaxy rests in the hands of bitter rivals. One, James Kirk, is a delinquent, thrill-seeking Iowa farm boy. The other, Spock, a Vulcan, was raised in a logic-based society that rejects all emotion. As fiery instinct clashes with calm reason, their unlikely but powerful partnership is the only thing capable of leading their crew through unimaginable danger, boldly going where no one has gone before. The human adventure has begun again.",
+        "cast": "",
+        "releaseDate": "2009-05-06",
+        "rating": 7.426
+      }
+    },
+    {
+      "id": "5935",
+      "userId": "2",
+      "movieId": 341013,
+      "movie": {
+        "id": 341013,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/vCmMRNbDlCno6ra91ruXp5rtsUC.jpg",
+        "title": "Atomic Blonde",
+        "genre": "N/A",
+        "description": "An undercover MI6 agent is sent to Berlin during the Cold War to investigate the murder of a fellow agent and recover a missing list of double agents.",
+        "cast": "",
+        "releaseDate": "2017-07-26",
+        "rating": 6.428
+      }
     }
   ],
   "reviews": [],
-  "bookedMovies": [],
+  "bookedMovies": [
+    {
+      "id": "ca06",
+      "userId": "2",
+      "movieId": 2046,
+      "moviePrice": 468,
+      "quantity": 1,
+      "movie": {
+        "id": 2046,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/c9mrttn6IpvO5dymlxqCDKklMYd.jpg",
+        "title": "The Gift",
+        "genre": "N/A",
+        "description": "Annie Wilson, young widow and mother of three, makes her living foretelling others' futures⁠—though her own has become cloudier than even she can see. Threatened by a client's violent husband and plagued by visions of a missing local woman, Annie finds herself pulled into a thicket of lies and deception in which her extraordinary gift may ultimately get her killed.",
+        "cast": "",
+        "releaseDate": "2000-03-16",
+        "rating": 6.461
+      }
+    },
+    {
+      "id": "ad7f",
+      "userId": "2",
+      "movieId": 1026202,
+      "moviePrice": 429,
+      "quantity": 1,
+      "movie": {
+        "id": 1026202,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/wj6cbxh1e8h21R3FOPil19lnIkv.jpg",
+        "title": "Giantess Battle Attack!",
+        "genre": "N/A",
+        "description": "The beautiful, beastly Beverly returns and faces a new gaggle of gargantuan gals, hell bent on achieving deluxe diva domination. Get ready for the cinematic smackdown thrills of Giantess Battle Attack. Size really does matter.",
+        "cast": "",
+        "releaseDate": "2022-10-20",
+        "rating": 6.5
+      }
+    },
+    {
+      "id": "6ce4",
+      "userId": "2",
+      "movieId": 1221396,
+      "moviePrice": 455,
+      "quantity": 1,
+      "movie": {
+        "id": 1221396,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/jrbBVDmC4lTquL5NvNbom9RAzbx.jpg",
+        "title": "Self",
+        "genre": "N/A",
+        "description": "A wooden puppet who desperately wants to fit in makes an ill-fated wish upon a star, sparking a journey of self-discovery.",
+        "cast": "",
+        "releaseDate": "2024-02-01",
+        "rating": 6.1
+      }
+    },
+    {
+      "id": "e532",
+      "userId": "2",
+      "movieId": 341013,
+      "moviePrice": 586,
+      "quantity": 1,
+      "movie": {
+        "id": 341013,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/vCmMRNbDlCno6ra91ruXp5rtsUC.jpg",
+        "title": "Atomic Blonde",
+        "genre": "N/A",
+        "description": "An undercover MI6 agent is sent to Berlin during the Cold War to investigate the murder of a fellow agent and recover a missing list of double agents.",
+        "cast": "",
+        "releaseDate": "2017-07-26",
+        "rating": 6.428
+      }
+    }
+  ],
   "movieHistory": [
     {
-      "id": "3264",
-      "userId": "2",
-      "movieId": 212778,
-      "moviePrice": 747,
+      "id": "ac7b",
+      "userId": "1",
+      "movieId": 1064758,
       "quantity": 1,
+      "moviePrice": 713,
       "movie": {
-        "id": 212778,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/hyp8EXDmO4dSC8V6Q5jU7gD1kcg.jpg",
-        "title": "Chef",
+        "id": 1064758,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/zCi5WZbYeFkM1KsOcbSv2qd37Bf.jpg",
+        "title": "Planet B",
         "genre": "N/A",
-        "description": "When Chef Carl Casper suddenly quits his job at a prominent Los Angeles restaurant after refusing to compromise his creative integrity for its controlling owner, he is left to figure out what's next. Finding himself in Miami, he teams up with his ex-wife, his friend and his son to launch a food truck. Taking to the road, Chef Carl goes back to his roots to reignite his passion for the kitchen -- and zest for life and love.",
+        "description": "France, 2039. One night, a group of activists who are being pursued by the State vanish without a trace. Julia Bombarth is one of them. When she awakens, she finds herself trapped in an entirely unfamiliar world: PLANET B.",
         "cast": "",
-        "releaseDate": "2014-05-08",
-        "rating": 7.112
+        "releaseDate": "2024-12-25",
+        "rating": 5.042
       },
-      "status": "Booked",
-      "timestamp": "2025-05-07T11:41:16.847Z"
+      "status": "Deleted",
+      "timestamp": "2025-05-07T16:13:02.954Z"
     },
     {
-      "id": "43b4",
-      "userId": "2",
-      "movieId": 6145,
-      "moviePrice": 792,
+      "id": "8587",
+      "userId": "1",
+      "movieId": 10191,
+      "moviePrice": 597,
       "quantity": 1,
       "movie": {
-        "id": 6145,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/qNen8x5gaikjIg9CFihgxYcJwQe.jpg",
-        "title": "Fracture",
+        "id": 10191,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/ygGmAO60t8GyqUo9xYeYxSZAR3b.jpg",
+        "title": "How to Train Your Dragon",
         "genre": "N/A",
-        "description": "A husband is on trial for the attempted murder of his wife, in what is seemingly an open/shut case for the ambitious district attorney trying to put him away. However, there are surprises for both around every corner, and, as a suspenseful game of cat-and-mouse is played out, each must manipulate and outwit the other.",
+        "description": "As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast – which he names Toothless – much to the chagrin of his warrior father.",
         "cast": "",
-        "releaseDate": "2007-04-19",
-        "rating": 7.269
+        "releaseDate": "2010-03-18",
+        "rating": 7.838
       },
       "status": "Booked",
-      "timestamp": "2025-05-07T11:41:19.104Z"
+      "timestamp": "2025-05-08T09:44:19.753Z"
     },
     {
-      "id": "e937",
-      "userId": "2",
-      "movieId": 34433,
+      "id": "aab2",
+      "userId": "1",
+      "movieId": 10191,
+      "quantity": 3,
+      "moviePrice": 597,
       "movie": {
-        "id": 34433,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/6iO8TJCyLI4BiPYOvdwzPV2bhoV.jpg",
-        "title": "Dragon Ball Z: Broly - The Legendary Super Saiyan",
+        "id": 10191,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/ygGmAO60t8GyqUo9xYeYxSZAR3b.jpg",
+        "title": "How to Train Your Dragon",
         "genre": "N/A",
-        "description": "While the Saiyan Paragus persuades Vegeta to rule a new planet, King Kai alerts Goku of the South Galaxy's destruction by an unknown Super Saiyan.",
+        "description": "As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast – which he names Toothless – much to the chagrin of his warrior father.",
         "cast": "",
-        "releaseDate": "1993-03-06",
-        "rating": 7.206
+        "releaseDate": "2010-03-18",
+        "rating": 7.838
+      },
+      "status": "Deleted",
+      "timestamp": "2025-05-08T09:44:31.221Z"
+    },
+    {
+      "id": "cab6",
+      "userId": "2",
+      "movieId": 1221396,
+      "moviePrice": 455,
+      "quantity": 1,
+      "movie": {
+        "id": 1221396,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/jrbBVDmC4lTquL5NvNbom9RAzbx.jpg",
+        "title": "Self",
+        "genre": "N/A",
+        "description": "A wooden puppet who desperately wants to fit in makes an ill-fated wish upon a star, sparking a journey of self-discovery.",
+        "cast": "",
+        "releaseDate": "2024-02-01",
+        "rating": 6.1
+      },
+      "status": "Booked",
+      "timestamp": "2025-05-08T10:04:05.776Z"
+    },
+    {
+      "id": "9896",
+      "userId": "2",
+      "movieId": 341013,
+      "movie": {
+        "id": 341013,
+        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/vCmMRNbDlCno6ra91ruXp5rtsUC.jpg",
+        "title": "Atomic Blonde",
+        "genre": "N/A",
+        "description": "An undercover MI6 agent is sent to Berlin during the Cold War to investigate the murder of a fellow agent and recover a missing list of double agents.",
+        "cast": "",
+        "releaseDate": "2017-07-26",
+        "rating": 6.428
       },
       "status": "Add to watchlist",
-      "timestamp": "2025-05-07T11:41:22.554Z"
-    },
-    {
-      "id": "d7ee",
-      "userId": "2",
-      "movieId": 122906,
-      "quantity": 1,
-      "moviePrice": 736,
-      "movie": {
-        "id": 122906,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/iR1bVfURbN7r1C46WHFbwCkVve.jpg",
-        "title": "About Time",
-        "genre": "N/A",
-        "description": "The night after another unsatisfactory New Year's party, Tim's father tells his son that the men in his family have always had the ability to travel through time. They can't change history, but they can change what happens and has happened in their own lives. Thus begins the start of a lesson in learning to appreciate life itself as it is, as it comes, and most importantly, the people living alongside us.",
-        "cast": "",
-        "releaseDate": "2013-09-04",
-        "rating": 7.916
-      },
-      "status": "Deleted",
-      "timestamp": "2025-05-07T11:45:29.852Z"
-    },
-    {
-      "id": "3f3a",
-      "userId": "2",
-      "movieId": 10907,
-      "quantity": 1,
-      "moviePrice": 735,
-      "movie": {
-        "id": 10907,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/4mazyXEMkmLw5h6076yyNSm9uv0.jpg",
-        "title": "The Adventures of Robin Hood",
-        "genre": "N/A",
-        "description": "Robin Hood fights nobly for justice against the evil Sir Guy of Gisbourne while striving to win the hand of the beautiful Maid Marian.",
-        "cast": "",
-        "releaseDate": "1938-05-13",
-        "rating": 7.467
-      },
-      "status": "Deleted",
-      "timestamp": "2025-05-07T11:45:31.181Z"
-    },
-    {
-      "id": "99c6",
-      "userId": "2",
-      "movieId": 212778,
-      "quantity": 1,
-      "moviePrice": 747,
-      "movie": {
-        "id": 212778,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/hyp8EXDmO4dSC8V6Q5jU7gD1kcg.jpg",
-        "title": "Chef",
-        "genre": "N/A",
-        "description": "When Chef Carl Casper suddenly quits his job at a prominent Los Angeles restaurant after refusing to compromise his creative integrity for its controlling owner, he is left to figure out what's next. Finding himself in Miami, he teams up with his ex-wife, his friend and his son to launch a food truck. Taking to the road, Chef Carl goes back to his roots to reignite his passion for the kitchen -- and zest for life and love.",
-        "cast": "",
-        "releaseDate": "2014-05-08",
-        "rating": 7.112
-      },
-      "status": "Deleted",
-      "timestamp": "2025-05-07T11:45:35.944Z"
-    },
-    {
-      "id": "df5d",
-      "userId": "2",
-      "movieId": 212778,
-      "movie": {
-        "id": 212778,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/hyp8EXDmO4dSC8V6Q5jU7gD1kcg.jpg",
-        "title": "Chef",
-        "genre": "N/A",
-        "description": "When Chef Carl Casper suddenly quits his job at a prominent Los Angeles restaurant after refusing to compromise his creative integrity for its controlling owner, he is left to figure out what's next. Finding himself in Miami, he teams up with his ex-wife, his friend and his son to launch a food truck. Taking to the road, Chef Carl goes back to his roots to reignite his passion for the kitchen -- and zest for life and love.",
-        "cast": "",
-        "releaseDate": "2014-05-08",
-        "rating": 7.112
-      },
-      "status": "Add to watchlist",
-      "timestamp": "2025-05-07T11:46:27.827Z"
-    },
-    {
-      "id": "0e15",
-      "userId": "2",
-      "movieId": 212778,
-      "moviePrice": 659,
-      "quantity": 1,
-      "movie": {
-        "id": 212778,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/hyp8EXDmO4dSC8V6Q5jU7gD1kcg.jpg",
-        "title": "Chef",
-        "genre": "N/A",
-        "description": "When Chef Carl Casper suddenly quits his job at a prominent Los Angeles restaurant after refusing to compromise his creative integrity for its controlling owner, he is left to figure out what's next. Finding himself in Miami, he teams up with his ex-wife, his friend and his son to launch a food truck. Taking to the road, Chef Carl goes back to his roots to reignite his passion for the kitchen -- and zest for life and love.",
-        "cast": "",
-        "releaseDate": "2014-05-08",
-        "rating": 7.112
-      },
-      "status": "Booked",
-      "timestamp": "2025-05-07T11:46:31.237Z"
-    },
-    {
-      "id": "916c",
-      "userId": "2",
-      "movieId": 6145,
-      "quantity": 1,
-      "moviePrice": 792,
-      "movie": {
-        "id": 6145,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/qNen8x5gaikjIg9CFihgxYcJwQe.jpg",
-        "title": "Fracture",
-        "genre": "N/A",
-        "description": "A husband is on trial for the attempted murder of his wife, in what is seemingly an open/shut case for the ambitious district attorney trying to put him away. However, there are surprises for both around every corner, and, as a suspenseful game of cat-and-mouse is played out, each must manipulate and outwit the other.",
-        "cast": "",
-        "releaseDate": "2007-04-19",
-        "rating": 7.269
-      },
-      "status": "Deleted",
-      "timestamp": "2025-05-07T11:46:33.348Z"
-    },
-    {
-      "id": "3ee7",
-      "userId": "2",
-      "movieId": 212778,
-      "quantity": 1,
-      "moviePrice": 659,
-      "movie": {
-        "id": 212778,
-        "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/hyp8EXDmO4dSC8V6Q5jU7gD1kcg.jpg",
-        "title": "Chef",
-        "genre": "N/A",
-        "description": "When Chef Carl Casper suddenly quits his job at a prominent Los Angeles restaurant after refusing to compromise his creative integrity for its controlling owner, he is left to figure out what's next. Finding himself in Miami, he teams up with his ex-wife, his friend and his son to launch a food truck. Taking to the road, Chef Carl goes back to his roots to reignite his passion for the kitchen -- and zest for life and love.",
-        "cast": "",
-        "releaseDate": "2014-05-08",
-        "rating": 7.112
-      },
-      "status": "Deleted",
-      "timestamp": "2025-05-07T11:46:34.054Z"
+      "timestamp": "2025-05-08T10:04:16.360Z"
     }
   ]
 }
