@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Check netlify online application
-URL - https://enchanting-lokum-a3361f.netlify.app/
+URL - https://movie-search-manager.netlify.app/
 user - test@gmail.com
 Password - 123456
 
