@@ -19,7 +19,7 @@ const MovieListing = () => {
         if (!user) {
             navigate('/');
         }
-    }, [user]);
+    }, [user, navigate]);
     const handleSelect = (movie) => {
         dispatch(selectMovie(movie));
         navigate(`/movie/${movie.id}`);
