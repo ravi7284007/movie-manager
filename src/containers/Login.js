@@ -28,14 +28,14 @@ const Login = () => {
       {auth.error && <div className="alert alert-danger">{auth.error}</div>}
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
-          <label>Email</label>
+          <label>Email (ravi@gmail.com)</label>
           <input type="email" className="form-control"
-            value={'ravi@gmail.com'} onChange={e => setEmail(e.target.value)} required />
+            value={email} onChange={e => setEmail(e.target.value)} required />
         </div>
         <div className="mb-3">
-          <label>Password</label>
+          <label>Password (123456)</label>
           <input type="password" className="form-control"
-            value={123456} onChange={e => setPassword(e.target.value)} required />
+            value={password} onChange={e => setPassword(e.target.value)} required />
         </div>
         <button className="btn btn-primary" type="submit" disabled={auth.loading}>
           {auth.loading ? 'Logging in...' : 'Login'}
