@@ -37,7 +37,7 @@ const MovieDetails = () => {
       dispatch(fetchReviews(movie.id));
       dispatch(fetchWatchlist(userId))
     }
-  }, [movie, dispatch]);
+  }, [userId, movie, dispatch]);
 
   const handleSelect = (movie) => {
     dispatch(selectMovie(movie));
